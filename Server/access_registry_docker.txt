@@ -1,0 +1,7 @@
+peeranutnoonurak
+12345678
+
+docker login registry.gitlab.com/loukjeab/EULYNX_SDI_OPC_UA_BL4R3 --username peeranutnoonurak --password 12345678
+docker run --publish 4840:4840 registry.gitlab.com/loukjeab/EULYNX_SDI_OPC_UA_BL4R3:latest
+
+
