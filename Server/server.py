@@ -1,6 +1,8 @@
 import asyncio
 import pandas as pd
 from asyncua import Server, ua
+import os
+
 # Start
 # Constants for event-specific node names
 EVENT_SPECIFIC_NODES = ["isEndpositionReached", "commandedPosition", "failureReason"]
@@ -229,8 +231,14 @@ async def main():
     
     server = Server()
     await server.init()
-    server.set_endpoint("opc.tcp://0.0.0.0:4840/EULYNX")
-    server.set_server_name("BL4R3 SDI OPC UA")
+
+    # Use environment variables for the endpoint and server name
+    server_name = os.getenv("OPCUA_SERVER_NAME", "BL4R3 SDI OPC UA")
+    server_port = os.getenv("OPCUA_SERVER_PORT", 4840)
+    endpoint = os.getenv("OPCUA_ENDPOINT", f"opc.tcp://0.0.0.0:{server_port}/EULYNX")
+
+    server.set_endpoint(endpoint)
+    server.set_server_name(server_name)
 
     await server.import_xml("eulynx.generic.bl4r3.rev01.xml")
     await server.import_xml("eulynx.manufacturer.example.bl4r3.rev01.xml")
