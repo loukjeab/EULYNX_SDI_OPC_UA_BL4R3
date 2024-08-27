@@ -4,8 +4,8 @@ FROM python:3.12-slim
 # Set the working directory in the container
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
+# Install system dependencies with retry mechanism
+RUN apt-get update || apt-get update && apt-get install -y \
     gcc \
     libffi-dev \
     libssl-dev \
@@ -22,5 +22,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Make port 4840 available to the world outside this container
 EXPOSE 4840
 
-# Run opcua-server-scenario-modular.py when the container launches
+# Run server.py when the container launches
 CMD ["python", "server.py"]

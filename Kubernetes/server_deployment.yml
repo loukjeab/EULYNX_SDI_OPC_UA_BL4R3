@@ -14,12 +14,25 @@ spec:
     spec:
       containers:
       - name: opc-ua-server
-        image: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:latest
+        image: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v1
         ports:
         - containerPort: 4840
-        envFrom:
-        - configMapRef:
-            name: opc-ua-server-config
+        env:
+        - name: OPCUA_SERVER_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config
+              key: OPCUA_SERVER_NAME
+        - name: OPCUA_SERVER_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config
+              key: OPCUA_SERVER_PORT
+        - name: OPCUA_ENDPOINT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config
+              key: OPCUA_ENDPOINT
         resources:
           requests:
             memory: "512Mi"
@@ -27,4 +40,3 @@ spec:
           limits:
             memory: "1Gi"
             cpu: "1"
-
