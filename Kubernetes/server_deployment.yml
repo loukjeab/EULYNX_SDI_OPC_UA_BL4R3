@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: opc-ua-server
 spec:
-  replicas: 2  # Number of servers to deploy
+  replicas: 5  # Number of servers to deploy
   selector:
     matchLabels:
       app: opc-ua-server
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: opc-ua-server
-        image: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v1
+        image: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v2
         ports:
         - containerPort: 4840
         env:

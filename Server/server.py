@@ -282,7 +282,7 @@ async def main():
                             await trigger_event(server, point_turn_event_type_node, instance, step_data, nodes)
                         await asyncio.sleep(5)
                 print(f"Scenario {scenario_choice} completed.")
-                await asyncio.sleep(5)
+                await asyncio.sleep(15)
 
             print("Completed all scenarios, starting over...")
             

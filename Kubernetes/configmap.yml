@@ -6,9 +6,18 @@ data:
   OPCUA_SERVER_NAME: |
     EULYNX_OPC_UA_Server1_FFM
     EULYNX_OPC_UA_Server2_MUC
+    EULYNX_OPC_UA_Server3_BER
+    EULYNX_OPC_UA_Server4_HAM
+    EULYNX_OPC_UA_Server5_DUS
   OPCUA_SERVER_PORT: |
     4840
     4841
+    4842
+    4843
+    4844
   OPCUA_ENDPOINT: |
     opc.tcp://0.0.0.0:4840/EULYNX
     opc.tcp://0.0.0.0:4841/EULYNX
+    opc.tcp://0.0.0.0:4842/EULYNX
+    opc.tcp://0.0.0.0:4843/EULYNX
+    opc.tcp://0.0.0.0:4844/EULYNX
