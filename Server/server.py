@@ -248,7 +248,7 @@ async def main():
     # Define S10 instance object 
     instance_objects = [server.get_node("ns=4;i=5057")]
 
-    print("OPC UA Server is running...")
+    print(f"OPC UA Server '{server_name}' is running on endpoint: {endpoint}")
 
     # # Automatically play the default scenario at startup
     # print("Automatically playing the 'default' scenario...")
@@ -282,7 +282,7 @@ async def main():
                             await trigger_event(server, point_turn_event_type_node, instance, step_data, nodes)
                         await asyncio.sleep(5)
                 print(f"Scenario {scenario_choice} completed.")
-                await asyncio.sleep(5)
+                await asyncio.sleep(15)
 
             print("Completed all scenarios, starting over...")
             

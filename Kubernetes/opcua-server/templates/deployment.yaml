@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opcua-servers
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: opcua-servers
+  template:
+    metadata:
+      labels:
+        app: opcua-servers
+    spec:
+      containers:
+        {{- range $server := .Values.servers }}
+        - name: {{ $server.name }}
+          image: "{{ $.Values.image.repository }}:{{ $.Values.image.tag }}"
+          imagePullPolicy: {{ $.Values.image.pullPolicy }}
+          ports:
+            - containerPort: {{ $server.port }}
+          env:
+            - name: OPCUA_SERVER_NAME
+              value: "{{ $server.name }}"
+            - name: OPCUA_SERVER_PORT
+              value: "{{ $server.port }}"
+            - name: OPCUA_ENDPOINT
+              value: "{{ $server.endpoint }}"
+        {{- end }}

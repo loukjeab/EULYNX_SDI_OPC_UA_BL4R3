@@ -1,0 +1,58 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server
+  pullPolicy: IfNotPresent
+  tag: v3
+
+service:
+  type: NodePort
+  port: 80
+
+servers:
+  - name: pointgroup-ffm
+    port: 4840
+    endpoint: opc.tcp://0.0.0.0:4840/EULYNX
+  - name: pointgroup-muc
+    port: 4841
+    endpoint: opc.tcp://0.0.0.0:4841/EULYNX
+  - name: pointgroup-ber
+    port: 4842
+    endpoint: opc.tcp://0.0.0.0:4842/EULYNX
+  - name: pointgroup-ham
+    port: 4843
+    endpoint: opc.tcp://0.0.0.0:4843/EULYNX
+  - name: pointgroup-dus
+    port: 4844
+    endpoint: opc.tcp://0.0.0.0:4844/EULYNX
+
+serviceAccount:
+  create: true
+  automount: true
+  name: ""
+
+podAnnotations: {}
+podLabels: {}
+
+podSecurityContext: {}
+securityContext: {}
+
+ingress:
+  enabled: false
+
+resources: {}
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 80
+
+volumes: []
+volumeMounts: []
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
