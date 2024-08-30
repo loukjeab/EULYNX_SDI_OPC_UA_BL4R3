@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: opcua-servers-service
+spec:
+  selector:
+    app: opcua-servers
+  ports:
+    {{- range $server := .Values.servers }}
+    - name: {{ $server.name }}
+      protocol: TCP
+      port: {{ $server.port }}
+      targetPort: {{ $server.port }}
+      nodePort: {{ $server.nodePort | default 0 }}
+    {{- end }}
+  type: NodePort

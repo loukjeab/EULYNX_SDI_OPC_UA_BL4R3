@@ -1,0 +1,219 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opc-ua-server1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: opc-ua-server1
+  template:
+    metadata:
+      labels:
+        app: opc-ua-server1
+    spec:
+      containers:
+      - name: opc-ua-server
+        image: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v3
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 4840
+        env:
+        - name: OPCUA_SERVER_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-1
+              key: OPCUA_SERVER_NAME
+        - name: OPCUA_SERVER_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-1
+              key: OPCUA_SERVER_PORT
+        - name: OPCUA_ENDPOINT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-1
+              key: OPCUA_ENDPOINT
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opc-ua-server2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: opc-ua-server2
+  template:
+    metadata:
+      labels:
+        app: opc-ua-server2
+    spec:
+      containers:
+      - name: opc-ua-server
+        image: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v3
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 4841
+        env:
+        - name: OPCUA_SERVER_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-2
+              key: OPCUA_SERVER_NAME
+        - name: OPCUA_SERVER_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-2
+              key: OPCUA_SERVER_PORT
+        - name: OPCUA_ENDPOINT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-2
+              key: OPCUA_ENDPOINT
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opc-ua-server3
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: opc-ua-server3
+  template:
+    metadata:
+      labels:
+        app: opc-ua-server3
+    spec:
+      containers:
+      - name: opc-ua-server
+        image: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v3
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 4842
+        env:
+        - name: OPCUA_SERVER_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-3
+              key: OPCUA_SERVER_NAME
+        - name: OPCUA_SERVER_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-3
+              key: OPCUA_SERVER_PORT
+        - name: OPCUA_ENDPOINT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-3
+              key: OPCUA_ENDPOINT
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opc-ua-server4
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: opc-ua-server4
+  template:
+    metadata:
+      labels:
+        app: opc-ua-server4
+    spec:
+      containers:
+      - name: opc-ua-server
+        image: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v3
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 4843
+        env:
+        - name: OPCUA_SERVER_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-4
+              key: OPCUA_SERVER_NAME
+        - name: OPCUA_SERVER_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-4
+              key: OPCUA_SERVER_PORT
+        - name: OPCUA_ENDPOINT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-4
+              key: OPCUA_ENDPOINT
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opc-ua-server5
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: opc-ua-server5
+  template:
+    metadata:
+      labels:
+        app: opc-ua-server5
+    spec:
+      containers:
+      - name: opc-ua-server
+        image: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v3
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 4844
+        env:
+        - name: OPCUA_SERVER_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-5
+              key: OPCUA_SERVER_NAME
+        - name: OPCUA_SERVER_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-5
+              key: OPCUA_SERVER_PORT
+        - name: OPCUA_ENDPOINT
+          valueFrom:
+            configMapKeyRef:
+              name: opc-ua-server-config-5
+              key: OPCUA_ENDPOINT
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1"
