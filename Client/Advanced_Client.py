@@ -241,7 +241,7 @@ class OPCUAGUI(tk.Tk):
 
 if __name__ == "__main__":
     # Update the path to your Excel file here
-    excel_file = r'C:\Users\gpsoo\Desktop\Thesis_implementation\implementation\EULYNX_SDI_OPC_UA_BL4R3\Server\BL4R3-rev01-Diagnostic_NodeID_List-scenario.xlsx'
+    excel_file = r'BL4R3-rev01-Diagnostic_NodeID_List-scenario.xlsx'
     client = OPCUAClient(excel_file)
 
     # Create the CSV file with headers
