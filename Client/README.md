@@ -1,6 +1,6 @@
 # OPC UA Client
 
-This project provides an advanced OPC UA client that connects to one or more OPC UA servers, summarizes namespaces, subscribes to node changes, and logs events. It is designed to provide more insights than typical OPC UA client - COTS product such as UA Expert from UA Automation.
+This project provides an advanced OPC UA client that connects to one or more OPC UA servers, summarizes namespaces, subscribes to node changes, and logs events. It is designed to provide more insights than typical OPC UA client - COTS product such as UA Expert from UA Automation. (opc.tcp://localhost:4840/EULYNX)
 
 ## Features
 

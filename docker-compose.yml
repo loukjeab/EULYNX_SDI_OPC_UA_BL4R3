@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  server:
+    build:
+      context: ./Server
+      dockerfile: Dockerfile
+    ports:
+      - "4840:4840"  # Map the server's port to the host
+
+  client:
+    build:
+      context: ./Client
+      dockerfile: Dockerfile
+    depends_on:
+      - server  # Ensure the server starts before the client
