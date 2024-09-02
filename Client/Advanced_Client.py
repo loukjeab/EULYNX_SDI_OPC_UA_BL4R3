@@ -1,3 +1,5 @@
+import os
+import sys
 import asyncio
 import pandas as pd
 from asyncua import Client, ua
@@ -53,7 +55,8 @@ class OPCUAClient:
             except Exception as e:
                 print(f"Failed to disconnect from server: {e}")
         self.servers.clear()
-        messagebox.showinfo("Disconnected", "Successfully disconnected from all servers.")
+        if not os.getenv("HEADLESS", "False").lower() in ("true", "1", "t"):
+            messagebox.showinfo("Disconnected", "Successfully disconnected from all servers.")
 
     async def add_server(self, server_url):
         """
@@ -126,8 +129,9 @@ class OPCUAClient:
             writer = csv.writer(file)
             writer.writerow([timestamp, node_info["Name"], data_entry["Node"], val])
 
-        # Update the GUI with the latest logged data
-        app.update_log_display(data_entry)
+        if not os.getenv("HEADLESS", "False").lower() in ("true", "1", "t"):
+            # Update the GUI with the latest logged data
+            app.update_log_display(data_entry)
 
     class SubscriptionHandler:
         def __init__(self, client_obj):
@@ -239,16 +243,26 @@ class OPCUAGUI(tk.Tk):
         self.loop.stop()
         self.destroy()
 
-if __name__ == "__main__":
+def main():
     # Update the path to your Excel file here
     excel_file = r'BL4R3-rev01-Diagnostic_NodeID_List-scenario.xlsx'
     client = OPCUAClient(excel_file)
+    
+    # Check if we are running in a headless environment
+    headless = os.getenv("HEADLESS", "False").lower() in ("true", "1", "t")
+    
+    if headless:
+        print("Running in headless mode")
+        asyncio.run(client.subscribe_and_monitor_nodes())
+    else:
+        # Create the CSV file with headers if running locally with GUI
+        with open(client.csv_file, mode='w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(["timestamp", "Name", "Node", "value"])
 
-    # Create the CSV file with headers
-    with open(client.csv_file, mode='w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(["timestamp", "Name", "Node", "value"])
+        # Create and start the GUI
+        app = OPCUAGUI(client)
+        app.mainloop()
 
-    # Create and start the GUI
-    app = OPCUAGUI(client)
-    app.mainloop()
+if __name__ == "__main__":
+    main()
