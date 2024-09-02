@@ -6,8 +6,28 @@ image:
   tag: v3
 
 service:
-  type: NodePort
-  port: 80
+  type: NodePort  # Set service type to NodePort
+  ports:
+    - name: pointgroup-ffm
+      port: 4840
+      targetPort: 4840
+      nodePort: 30040  # Explicit NodePort
+    - name: pointgroup-muc
+      port: 4841
+      targetPort: 4841
+      nodePort: 30041
+    - name: pointgroup-ber
+      port: 4842
+      targetPort: 4842
+      nodePort: 30042
+    - name: pointgroup-ham
+      port: 4843
+      targetPort: 4843
+      nodePort: 30043
+    - name: pointgroup-dus
+      port: 4844
+      targetPort: 4844
+      nodePort: 30044
 
 servers:
   - name: pointgroup-ffm

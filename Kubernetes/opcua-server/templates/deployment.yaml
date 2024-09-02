@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: opcua-servers
 spec:
-  replicas: 1
+  replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
       app: opcua-servers

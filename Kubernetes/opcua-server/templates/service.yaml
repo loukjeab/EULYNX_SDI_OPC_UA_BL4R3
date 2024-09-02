@@ -6,11 +6,11 @@ spec:
   selector:
     app: opcua-servers
   ports:
-    {{- range $server := .Values.servers }}
+    {{- range $server := .Values.service.ports }}
     - name: {{ $server.name }}
       protocol: TCP
       port: {{ $server.port }}
-      targetPort: {{ $server.port }}
-      nodePort: {{ $server.nodePort | default 0 }}
+      targetPort: {{ $server.targetPort }}
+      nodePort: {{ $server.nodePort }}
     {{- end }}
-  type: NodePort
+  type: {{ .Values.service.type }}  # This will be NodePort
