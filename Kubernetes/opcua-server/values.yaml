@@ -40,6 +40,11 @@ service:
       port: 4847
       targetPort: 4847
       nodePort: 30047
+    - name: pointgroup-paris
+      port: 4848
+      targetPort: 4848
+      nodePort: 30048
+      
 
 servers:
   - name: pointgroup-ffm
@@ -66,6 +71,9 @@ servers:
   - name: pointgroup-strabourg
     port: 4847
     endpoint: opc.tcp://0.0.0.0:4847/EULYNX
+  - name: pointgroup-paris
+    port: 4848
+    endpoint: opc.tcp://0.0.0.0:4848/EULYNX
 
 
 serviceAccount:
