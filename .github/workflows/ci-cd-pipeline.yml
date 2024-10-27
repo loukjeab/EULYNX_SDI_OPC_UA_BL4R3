@@ -72,10 +72,11 @@ jobs:
           curl -Lo ./kind https://kind.sigs.k8s.io/dl/latest/kind-linux-amd64
           chmod +x ./kind
           sudo mv ./kind /usr/local/bin/kind
-          kind create cluster
+          kind create cluster --name ci-cd-cluster
 
       - name: Configure kubectl context
-        run: kubectl cluster-info
+        run: |
+          kubectl cluster-info --context kind-ci-cd-cluster
 
       - name: Add required Helm repositories
         run: |
@@ -84,10 +85,10 @@ jobs:
           helm repo update
 
       - name: Deploy with Helm
-        # Make sure Helm can find the specified chart path
-        run: helm upgrade --install opcua-server ./Kubernetes/opcua-server -f ./Kubernetes/opcua-server/values.yaml --debug
+        # Deploy to the default namespace and verify the Helm chart path
+        run: helm upgrade --install opcua-server ./Kubernetes/opcua-server/charts -f ./Kubernetes/opcua-server/values.yaml --namespace default --debug
 
       - name: Verify Deployment
         run: |
-          kubectl get pods
-          kubectl get svc
+          kubectl get pods -n default
+          kubectl get svc -n default
