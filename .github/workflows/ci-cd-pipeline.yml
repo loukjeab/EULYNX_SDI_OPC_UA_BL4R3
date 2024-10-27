@@ -22,17 +22,14 @@ jobs:
 
       - name: Install dependencies
         working-directory: Server
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
       - name: List Files (Debug Step)
-        run: |
-          ls -R  # Lists all files and directories to ensure everything is accessible
+        run: ls -R  # Lists all files and directories to ensure everything is accessible
 
       - name: Run server in the background
         working-directory: Server
-        run: |
-          nohup python server.py &  # Starts server.py in the background
+        run: nohup python server.py &  # Starts server.py in the background
 
   docker:
     needs: build
@@ -41,8 +38,14 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
 
+      - name: Log out of any cached Docker session (clear cache)
+        run: docker logout ghcr.io || true
+
       - name: Log in to GitHub Container Registry
-        run: echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u "${{ secrets.GHCR_USERNAME }}" --password-stdin
+        env:
+          GHCR_USERNAME: ${{ secrets.GHCR_USERNAME }}
+          GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
+        run: echo "${GHCR_TOKEN}" | docker login ghcr.io -u "${GHCR_USERNAME}" --password-stdin
 
       - name: Build Docker image
         working-directory: Server
@@ -51,7 +54,7 @@ jobs:
       - name: Tag Docker image
         run: docker tag opcua-server ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v1
 
-      - name: Push Docker image
+      - name: Push Docker image to GitHub Container Registry
         run: docker push ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v1
 
   deploy:
@@ -61,7 +64,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
 
-      - name: Set up kind
+      - name: Set up kind (Kubernetes in Docker)
         run: |
           curl -Lo ./kind https://kind.sigs.k8s.io/dl/latest/kind-linux-amd64
           chmod +x ./kind
@@ -69,8 +72,10 @@ jobs:
           kind create cluster
 
       - name: Configure kubectl context
-        run: |
-          kubectl cluster-info
+        run: kubectl cluster-info
 
       - name: Deploy with Helm
         run: helm upgrade --install opcua-server Kubernetes/opcua-server/charts -f Kubernetes/opcua-server/values.yaml
+
+      - name: Verify Deployment
+        run: kubectl get pods && kubectl get svc
