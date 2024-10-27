@@ -2,10 +2,10 @@
 loukjeab
 
 # Personal Access Token (for GitHub Container Registry)
-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
+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
 
 # Docker login command
-docker login ghcr.io --username loukjeab --password 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
+docker login ghcr.io --username loukjeab --password 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
 
 # Command to run the Docker container
 docker run --publish 4840:4840 ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v3
