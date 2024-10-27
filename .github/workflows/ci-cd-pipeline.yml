@@ -29,11 +29,12 @@ jobs:
         run: |
           ls -R  # Lists all files and directories to ensure everything is accessible
 
-      - name: Run basic tests
+      - name: Run basic tests with timeout
         # Use working-directory to run commands within the Server folder
         working-directory: Server
+        timeout-minutes: 3  # This will stop the step after 1 minute
         run: |
-          python server.py  # Modify as necessary for your tests
+          python server.py
 
   docker:
     needs: build
