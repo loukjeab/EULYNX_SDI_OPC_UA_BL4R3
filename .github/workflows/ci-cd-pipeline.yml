@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  # Job for building the Python application and running initial checks
+  # 1. Build Job: Installs dependencies, verifies server, and runs basic checks
   build:
     runs-on: ubuntu-latest
     steps:
@@ -26,13 +26,13 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: List Files (Debug Step)
-        run: ls -R  # Lists all files and directories to ensure everything is accessible
+        run: ls -R  # Lists all files and directories for verification
 
       - name: Run server in the background
         working-directory: Server
         run: nohup python server.py &  # Starts server.py in the background
 
-  # Job for building and pushing the Docker image to GitHub Container Registry
+  # 2. Docker Job: Builds and pushes Docker image to GitHub Container Registry (GHCR)
   docker:
     needs: build
     runs-on: ubuntu-latest
@@ -59,7 +59,7 @@ jobs:
       - name: Push Docker image to GitHub Container Registry
         run: docker push ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v1
 
-  # Job for deploying the application to a temporary Kubernetes cluster
+  # 3. Deploy Job: Deploys to a Kubernetes cluster using kind and Helm
   deploy:
     needs: docker
     runs-on: ubuntu-latest
@@ -84,7 +84,10 @@ jobs:
           helm repo update
 
       - name: Deploy with Helm
-        run: helm upgrade --install opcua-server Kubernetes/opcua-server/charts -f Kubernetes/opcua-server/values.yaml
+        # Make sure Helm can find the specified chart path
+        run: helm upgrade --install opcua-server ./Kubernetes/opcua-server/charts -f ./Kubernetes/opcua-server/values.yaml --debug
 
       - name: Verify Deployment
-        run: kubectl get pods && kubectl get svc
+        run: |
+          kubectl get pods
+          kubectl get svc
