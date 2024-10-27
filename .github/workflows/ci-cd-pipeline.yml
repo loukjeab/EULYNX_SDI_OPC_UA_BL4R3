@@ -9,6 +9,7 @@ on:
       - main
 
 jobs:
+  # Job for building the Python application and running initial checks
   build:
     runs-on: ubuntu-latest
     steps:
@@ -31,6 +32,7 @@ jobs:
         working-directory: Server
         run: nohup python server.py &  # Starts server.py in the background
 
+  # Job for building and pushing the Docker image to GitHub Container Registry
   docker:
     needs: build
     runs-on: ubuntu-latest
@@ -57,6 +59,7 @@ jobs:
       - name: Push Docker image to GitHub Container Registry
         run: docker push ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v1
 
+  # Job for deploying the application to a temporary Kubernetes cluster
   deploy:
     needs: docker
     runs-on: ubuntu-latest
@@ -73,6 +76,12 @@ jobs:
 
       - name: Configure kubectl context
         run: kubectl cluster-info
+
+      - name: Add required Helm repositories
+        run: |
+          helm repo add bitnami https://charts.bitnami.com/bitnami
+          helm repo add stable https://charts.helm.sh/stable
+          helm repo update
 
       - name: Deploy with Helm
         run: helm upgrade --install opcua-server Kubernetes/opcua-server/charts -f Kubernetes/opcua-server/values.yaml
