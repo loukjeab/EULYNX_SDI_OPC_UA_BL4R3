@@ -1,16 +1,12 @@
 # Username for Docker registry
-loukjeab
+# Use the GitHub Secrets variable for the username in CI/CD workflows, e.g., ${{ secrets.GHCR_USERNAME }}
 
 # Personal Access Token (for GitHub Container Registry)
-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
+# Use the GitHub Secrets variable for the token in CI/CD workflows, e.g., ${{ secrets.GHCR_TOKEN }}
 
-# Docker login command
-docker login ghcr.io --username loukjeab --password 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
+# Docker login command (use in CI/CD pipeline)
+# Example command using GitHub Secrets in workflows:
+# echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u "${{ secrets.GHCR_USERNAME }}" --password-stdin
 
 # Command to run the Docker container
 docker run --publish 4840:4840 ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v3
-
-
-
-
-
