@@ -1,0 +1,67 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install -r Server/requirements.txt
+
+      - name: Run basic tests
+        # Run server.py or other tests if available
+        run: |
+          python Server/server.py  # Modify as necessary for your tests
+
+  docker:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Log in to GitHub Container Registry
+        run: echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u "${{ secrets.GHCR_USERNAME }}" --password-stdin
+
+      - name: Build Docker image
+        run: docker build -t opcua-server -f Server/Dockerfile .
+
+      - name: Tag Docker image
+        run: docker tag opcua-server ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v1
+
+      - name: Push Docker image
+        run: docker push ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server:v1
+
+  deploy:
+    needs: docker
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Configure Kubernetes context
+        # Example of setting up kubectl context, replace KUBECONFIG with your secret
+        env:
+          KUBECONFIG: ${{ secrets.KUBECONFIG }}
+        run: |
+          kubectl config view  # Check context setup
+
+      - name: Deploy with Helm
+        # Use Helm to upgrade or install the deployment
+        run: helm upgrade --install opcua-server Kubernetes/opcua-server/charts -f Kubernetes/opcua-server/values.yaml
