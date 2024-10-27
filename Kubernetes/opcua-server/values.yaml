@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server
   pullPolicy: IfNotPresent
-  tag: v3
+  tag: v1
 
 service:
   type: NodePort  # Set service type to NodePort
@@ -28,6 +28,18 @@ service:
       port: 4844
       targetPort: 4844
       nodePort: 30044
+    - name: pointgroup-emd
+      port: 4845
+      targetPort: 4845
+      nodePort: 30045
+    - name: pointgroup-koln
+      port: 4846
+      targetPort: 4846
+      nodePort: 30046
+    - name: pointgroup-strabourg
+      port: 4847
+      targetPort: 4847
+      nodePort: 30047
 
 servers:
   - name: pointgroup-ffm
@@ -45,6 +57,16 @@ servers:
   - name: pointgroup-dus
     port: 4844
     endpoint: opc.tcp://0.0.0.0:4844/EULYNX
+  - name: pointgroup-emd
+    port: 4845
+    endpoint: opc.tcp://0.0.0.0:4845/EULYNX
+  - name: pointgroup-koln
+    port: 4846
+    endpoint: opc.tcp://0.0.0.0:4846/EULYNX
+  - name: pointgroup-strabourg
+    port: 4847
+    endpoint: opc.tcp://0.0.0.0:4847/EULYNX
+
 
 serviceAccount:
   create: true
@@ -65,7 +87,7 @@ resources: {}
 autoscaling:
   enabled: false
   minReplicas: 1
-  maxReplicas: 5
+  maxReplicas: 100
   targetCPUUtilizationPercentage: 80
 
 volumes: []

@@ -1,1 +1,922 @@
 timestamp,Name,Node,value
+2024-09-05 14:02:08.932920,aggregateAbleToMoveStatus ,ns=4;i=6013,1
+2024-09-05 14:02:09.568154,lastCommandedPosition ,ns=4;i=6070,0
+2024-09-05 14:02:09.570106,pointAbleToMoveStatus,ns=4;i=6015,0
+2024-09-05 14:02:09.994485,position,ns=4;i=6073,0
+2024-09-05 14:02:10.418040,positionDegraded ,ns=4;i=6074,4
+2024-09-05 14:02:11.081064,movementStatus,ns=4;i=6071,0
+2024-09-05 14:02:11.521533,driveCutoffPrinciple,ns=4;i=6014,1
+2024-09-05 14:02:11.935372,isUsingRedrive,ns=4;i=6069,False
+2024-09-05 14:02:12.466829,pSamplingInterval ,ns=4;i=6075,10.0
+2024-09-05 14:02:12.881905,pointOperationTimer,ns=4;i=6072,10.0
+2024-09-05 14:02:13.513906,turnCounter ,ns=4;i=6016,
+2024-09-05 14:02:13.513906,StatusTechnical,ns=4;i=6079,0
+2024-09-05 14:02:14.062534,isTimeSynchronised,ns=4;i=6017,True
+2024-09-05 14:02:14.506088,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6018,
+2024-09-05 14:02:14.934131,SubsystemIdentification,ns=4;i=6080,S1
+2024-09-05 14:02:15.459498,BasicDataReadable,ns=4;i=6076,3
+2024-09-05 14:02:15.903173,FieldElementSpecificationRevision,ns=4;i=6077,1.6 (1.A)
+2024-09-05 14:02:16.536815,OperationStatus,ns=4;i=6078,6
+2024-09-05 14:02:16.955737,TechnicalPlace,ns=4;i=6055,TP_S1
+2024-09-05 14:02:17.398607,lat,ns=4;i=6056,32.343
+2024-09-05 14:02:18.047411,lon,ns=4;i=6057,74.655
+2024-09-05 14:02:18.047411,trackEdgeId,ns=4;i=6058,1
+2024-09-05 14:02:18.477347,trackKm,ns=4;i=6059,1.23
+2024-09-05 14:02:18.920040,IsMaintenanceMode,ns=4;i=6060,False
+2024-09-05 14:02:19.588284,ableToMoveStatus,ns=4;i=6020,0
+2024-09-05 14:02:20.559493,position,ns=4;i=6066,0
+2024-09-05 14:02:20.559493,index,ns=4;i=6063,PM_01
+2024-09-05 14:02:21.000010,isCrucial,ns=4;i=6064,True
+2024-09-05 14:02:21.434064,machineType,ns=4;i=6065,1
+2024-09-05 14:02:21.878246,timeOffsetStartLeft,ns=4;i=6021,0.0
+2024-09-05 14:02:22.547357,timeOffsetStartRight,ns=4;i=6022,0.0
+2024-09-05 14:02:22.878106,turnCounter,ns=4;i=6067,
+2024-09-05 14:02:23.546459,aggregateAbleToMoveStatus ,ns=4;i=6489,1
+2024-09-05 14:02:23.991859,lastCommandedPosition ,ns=4;i=6096,0
+2024-09-05 14:02:24.530974,pointAbleToMoveStatus,ns=4;i=6492,0
+2024-09-05 14:02:24.972166,position,ns=4;i=6099,0
+2024-09-05 14:02:25.412613,positionDegraded ,ns=4;i=6100,4
+2024-09-05 14:02:25.946867,movementStatus,ns=4;i=6097,0
+2024-09-05 14:02:26.385414,driveCutoffPrinciple,ns=4;i=6490,1
+2024-09-05 14:02:27.029551,isUsingRedrive,ns=4;i=6095,False
+2024-09-05 14:02:27.578072,pSamplingInterval ,ns=4;i=6101,10.0
+2024-09-05 14:02:28.021813,pointOperationTimer,ns=4;i=6098,10.0
+2024-09-05 14:02:28.587449,turnCounter ,ns=4;i=6495,
+2024-09-05 14:02:29.021229,StatusTechnical,ns=4;i=6105,0
+2024-09-05 14:02:29.468504,isTimeSynchronised,ns=4;i=6491,True
+2024-09-05 14:02:30.018353,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6493,
+2024-09-05 14:02:30.450602,SubsystemIdentification,ns=4;i=6106,S2
+2024-09-05 14:02:30.879158,BasicDataReadable,ns=4;i=6102,3
+2024-09-05 14:02:31.531006,FieldElementSpecificationRevision,ns=4;i=6103,1.6 (1.A)
+2024-09-05 14:02:31.531006,OperationStatus,ns=4;i=6104,6
+2024-09-05 14:02:31.962876,TechnicalPlace,ns=4;i=6081,TP_S2
+2024-09-05 14:02:32.410389,lat,ns=4;i=6082,32.343
+2024-09-05 14:02:33.070518,lon,ns=4;i=6083,74.655
+2024-09-05 14:02:33.520602,trackEdgeId,ns=4;i=6084,1
+2024-09-05 14:02:33.946024,trackKm,ns=4;i=6085,1.23
+2024-09-05 14:02:34.497602,IsMaintenanceMode,ns=4;i=6086,False
+2024-09-05 14:02:34.945805,ableToMoveStatus,ns=4;i=6496,0
+2024-09-05 14:02:35.388347,position,ns=4;i=6092,0
+2024-09-05 14:02:36.051147,index,ns=4;i=6089,PM_02
+2024-09-05 14:02:36.487112,isCrucial,ns=4;i=6090,True
+2024-09-05 14:02:36.921638,machineType,ns=4;i=6091,1
+2024-09-05 14:02:37.459652,timeOffsetStartLeft,ns=4;i=6497,0.0
+2024-09-05 14:02:37.915978,timeOffsetStartRight,ns=4;i=6498,0.0
+2024-09-05 14:02:38.569011,turnCounter,ns=4;i=6093,
+2024-09-05 14:02:38.901033,aggregateAbleToMoveStatus ,ns=4;i=6455,1
+2024-09-05 14:02:39.571155,lastCommandedPosition ,ns=4;i=6167,0
+2024-09-05 14:02:40.009769,pointAbleToMoveStatus,ns=4;i=6458,0
+2024-09-05 14:02:40.554415,position,ns=4;i=6170,0
+2024-09-05 14:02:40.997535,positionDegraded ,ns=4;i=6171,4
+2024-09-05 14:02:41.430885,movementStatus,ns=4;i=6168,0
+2024-09-05 14:02:41.979156,driveCutoffPrinciple,ns=4;i=6456,1
+2024-09-05 14:02:42.430119,isUsingRedrive,ns=4;i=6166,False
+2024-09-05 14:02:43.088556,pSamplingInterval ,ns=4;i=6172,10.0
+2024-09-05 14:02:43.088556,pointOperationTimer,ns=4;i=6169,10.0
+2024-09-05 14:02:44.076448,turnCounter ,ns=4;i=6461,
+2024-09-05 14:02:44.076448,StatusTechnical,ns=4;i=6176,0
+2024-09-05 14:02:44.509212,isTimeSynchronised,ns=4;i=6457,True
+2024-09-05 14:02:44.937950,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6459,
+2024-09-05 14:02:45.375434,SubsystemIdentification,ns=4;i=6177,S3
+2024-09-05 14:02:46.035628,BasicDataReadable,ns=4;i=6173,3
+2024-09-05 14:02:46.572790,FieldElementSpecificationRevision,ns=4;i=6174,1.6 (1.A)
+2024-09-05 14:02:46.995953,OperationStatus,ns=4;i=6175,6
+2024-09-05 14:02:47.416515,TechnicalPlace,ns=4;i=6152,TP_S3
+2024-09-05 14:02:47.956224,lat,ns=4;i=6153,32.343
+2024-09-05 14:02:48.384202,lon,ns=4;i=6154,74.655
+2024-09-05 14:02:49.035402,trackEdgeId,ns=4;i=6155,1
+2024-09-05 14:02:49.037890,trackKm,ns=4;i=6156,1.23
+2024-09-05 14:02:49.570144,IsMaintenanceMode,ns=4;i=6157,False
+2024-09-05 14:02:50.466983,ableToMoveStatus,ns=4;i=6462,0
+2024-09-05 14:02:51.019698,position,ns=4;i=6163,0
+2024-09-05 14:02:51.484246,index,ns=4;i=6160,PM_03
+2024-09-05 14:02:51.918514,isCrucial,ns=4;i=6161,True
+2024-09-05 14:02:52.485184,machineType,ns=4;i=6162,1
+2024-09-05 14:02:52.927927,timeOffsetStartLeft,ns=4;i=6463,0.0
+2024-09-05 14:02:53.576698,timeOffsetStartRight,ns=4;i=6464,0.0
+2024-09-05 14:02:53.576698,turnCounter,ns=4;i=6164,
+2024-09-05 14:02:54.564940,aggregateAbleToMoveStatus ,ns=4;i=6505,1
+2024-09-05 14:02:55.005448,lastCommandedPosition ,ns=4;i=6122,0
+2024-09-05 14:02:55.443183,pointAbleToMoveStatus,ns=4;i=6508,0
+2024-09-05 14:02:55.869354,position,ns=4;i=6125,0
+2024-09-05 14:02:56.514765,positionDegraded ,ns=4;i=6126,4
+2024-09-05 14:02:56.516473,movementStatus,ns=4;i=6123,0
+2024-09-05 14:02:56.954984,driveCutoffPrinciple,ns=4;i=6506,1
+2024-09-05 14:02:57.395241,isUsingRedrive,ns=4;i=6121,False
+2024-09-05 14:02:58.039019,pSamplingInterval ,ns=4;i=6127,10.0
+2024-09-05 14:02:58.466343,pointOperationTimer,ns=4;i=6124,10.0
+2024-09-05 14:02:58.914248,turnCounter ,ns=4;i=6511,
+2024-09-05 14:02:59.581537,StatusTechnical,ns=4;i=6131,0
+2024-09-05 14:02:59.582542,isTimeSynchronised,ns=4;i=6507,True
+2024-09-05 14:03:00.581932,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6509,
+2024-09-05 14:03:00.582863,SubsystemIdentification,ns=4;i=6132,S4
+2024-09-05 14:03:01.023642,BasicDataReadable,ns=4;i=6128,3
+2024-09-05 14:03:01.566894,FieldElementSpecificationRevision,ns=4;i=6129,1.6 (1.A)
+2024-09-05 14:03:02.009615,OperationStatus,ns=4;i=6130,6
+2024-09-05 14:03:02.562857,TechnicalPlace,ns=4;i=6107,TP_S4
+2024-09-05 14:03:03.014782,lat,ns=4;i=6108,32.343
+2024-09-05 14:03:03.446825,lon,ns=4;i=6109,74.655
+2024-09-05 14:03:04.010275,trackEdgeId,ns=4;i=6110,1
+2024-09-05 14:03:04.458122,trackKm,ns=4;i=6111,1.23
+2024-09-05 14:03:04.900370,IsMaintenanceMode,ns=4;i=6112,False
+2024-09-05 14:03:05.569446,ableToMoveStatus,ns=4;i=6512,0
+2024-09-05 14:03:06.011442,position,ns=4;i=6118,0
+2024-09-05 14:03:06.432154,index,ns=4;i=6115,PM_04
+2024-09-05 14:03:06.963186,isCrucial,ns=4;i=6116,True
+2024-09-05 14:03:07.398431,machineType,ns=4;i=6117,1
+2024-09-05 14:03:08.050890,timeOffsetStartLeft,ns=4;i=6513,0.0
+2024-09-05 14:03:08.472292,timeOffsetStartRight,ns=4;i=6514,0.0
+2024-09-05 14:03:08.918021,turnCounter,ns=4;i=6119,
+2024-09-05 14:03:09.563574,aggregateAbleToMoveStatus ,ns=4;i=6515,1
+2024-09-05 14:03:10.006717,lastCommandedPosition ,ns=4;i=6148,0
+2024-09-05 14:03:10.437803,pointAbleToMoveStatus,ns=4;i=6518,0
+2024-09-05 14:03:11.093078,position,ns=4;i=6151,0
+2024-09-05 14:03:11.093078,positionDegraded ,ns=4;i=6178,4
+2024-09-05 14:03:11.549817,movementStatus,ns=4;i=6149,0
+2024-09-05 14:03:11.981964,driveCutoffPrinciple,ns=4;i=6516,1
+2024-09-05 14:03:12.412400,isUsingRedrive,ns=4;i=6147,False
+2024-09-05 14:03:13.074814,pSamplingInterval ,ns=4;i=6179,10.0
+2024-09-05 14:03:13.517596,pointOperationTimer,ns=4;i=6150,10.0
+2024-09-05 14:03:13.971358,turnCounter ,ns=4;i=6521,
+2024-09-05 14:03:14.519937,StatusTechnical,ns=4;i=6183,0
+2024-09-05 14:03:14.965849,isTimeSynchronised,ns=4;i=6517,True
+2024-09-05 14:03:15.411437,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6519,
+2024-09-05 14:03:15.966636,SubsystemIdentification,ns=4;i=6184,S5
+2024-09-05 14:03:16.404672,BasicDataReadable,ns=4;i=6180,3
+2024-09-05 14:03:17.061100,FieldElementSpecificationRevision,ns=4;i=6181,1.6 (1.A)
+2024-09-05 14:03:17.389508,OperationStatus,ns=4;i=6182,6
+2024-09-05 14:03:18.047421,TechnicalPlace,ns=4;i=6133,TP_S5
+2024-09-05 14:03:18.486532,lat,ns=4;i=6134,32.343
+2024-09-05 14:03:19.032340,lon,ns=4;i=6135,74.655
+2024-09-05 14:03:19.473468,trackEdgeId,ns=4;i=6136,1
+2024-09-05 14:03:19.910516,trackKm,ns=4;i=6137,1.23
+2024-09-05 14:03:20.461980,IsMaintenanceMode,ns=4;i=6138,False
+2024-09-05 14:03:20.895387,ableToMoveStatus,ns=4;i=6522,0
+2024-09-05 14:03:21.558198,position,ns=4;i=6144,0
+2024-09-05 14:03:21.894917,index,ns=4;i=6141,PM_05
+2024-09-05 14:03:22.557261,isCrucial,ns=4;i=6142,True
+2024-09-05 14:03:23.000779,machineType,ns=4;i=6143,1
+2024-09-05 14:03:23.557484,timeOffsetStartLeft,ns=4;i=6523,0.0
+2024-09-05 14:03:24.000601,timeOffsetStartRight,ns=4;i=6524,0.0
+2024-09-05 14:03:24.433101,turnCounter,ns=4;i=6145,
+2024-09-05 14:03:24.976582,aggregateAbleToMoveStatus ,ns=4;i=6525,1
+2024-09-05 14:03:25.414830,lastCommandedPosition ,ns=4;i=6200,0
+2024-09-05 14:03:26.065486,pointAbleToMoveStatus,ns=4;i=6528,0
+2024-09-05 14:03:26.394006,position,ns=4;i=6203,0
+2024-09-05 14:03:27.052210,positionDegraded ,ns=4;i=6204,4
+2024-09-05 14:03:27.507437,movementStatus,ns=4;i=6201,0
+2024-09-05 14:03:28.052371,driveCutoffPrinciple,ns=4;i=6526,1
+2024-09-05 14:03:28.487211,isUsingRedrive,ns=4;i=6199,False
+2024-09-05 14:03:28.914411,pSamplingInterval ,ns=4;i=6205,10.0
+2024-09-05 14:03:29.458717,pointOperationTimer,ns=4;i=6202,10.0
+2024-09-05 14:03:29.897379,turnCounter ,ns=4;i=6531,
+2024-09-05 14:03:30.550634,StatusTechnical,ns=4;i=6209,0
+2024-09-05 14:03:30.550634,isTimeSynchronised,ns=4;i=6527,True
+2024-09-05 14:03:31.530322,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6529,
+2024-09-05 14:03:31.530322,SubsystemIdentification,ns=4;i=6210,S6
+2024-09-05 14:03:31.964153,BasicDataReadable,ns=4;i=6206,3
+2024-09-05 14:03:32.513128,FieldElementSpecificationRevision,ns=4;i=6207,1.6 (1.A)
+2024-09-05 14:03:32.947147,OperationStatus,ns=4;i=6208,6
+2024-09-05 14:03:33.384121,TechnicalPlace,ns=4;i=6185,TP_S6
+2024-09-05 14:03:33.932724,lat,ns=4;i=6186,32.343
+2024-09-05 14:03:34.578938,lon,ns=4;i=6187,74.655
+2024-09-05 14:03:35.023192,trackEdgeId,ns=4;i=6188,1
+2024-09-05 14:03:35.564544,trackKm,ns=4;i=6189,1.23
+2024-09-05 14:03:36.010955,IsMaintenanceMode,ns=4;i=6190,False
+2024-09-05 14:03:36.557812,ableToMoveStatus,ns=4;i=6532,0
+2024-09-05 14:03:36.993977,position,ns=4;i=6196,0
+2024-09-05 14:03:37.420428,index,ns=4;i=6193,PM_06
+2024-09-05 14:03:38.086001,isCrucial,ns=4;i=6194,True
+2024-09-05 14:03:38.520946,machineType,ns=4;i=6195,1
+2024-09-05 14:03:38.964431,timeOffsetStartLeft,ns=4;i=6533,0.0
+2024-09-05 14:03:39.518035,timeOffsetStartRight,ns=4;i=6534,0.0
+2024-09-05 14:03:39.950983,turnCounter,ns=4;i=6197,
+2024-09-05 14:03:40.401816,aggregateAbleToMoveStatus ,ns=4;i=6535,1
+2024-09-05 14:03:40.934740,lastCommandedPosition ,ns=4;i=6226,0
+2024-09-05 14:03:41.490764,pointAbleToMoveStatus,ns=4;i=6538,0
+2024-09-05 14:03:41.934197,position,ns=4;i=6229,0
+2024-09-05 14:03:42.490168,positionDegraded ,ns=4;i=6230,4
+2024-09-05 14:03:42.951273,movementStatus,ns=4;i=6227,0
+2024-09-05 14:03:43.392331,driveCutoffPrinciple,ns=4;i=6536,1
+2024-09-05 14:03:43.927063,isUsingRedrive,ns=4;i=6225,False
+2024-09-05 14:03:44.589405,pSamplingInterval ,ns=4;i=6231,10.0
+2024-09-05 14:03:45.032689,pointOperationTimer,ns=4;i=6228,10.0
+2024-09-05 14:03:45.474090,turnCounter ,ns=4;i=6541,
+2024-09-05 14:03:45.920776,StatusTechnical,ns=4;i=6235,0
+2024-09-05 14:03:46.580236,isTimeSynchronised,ns=4;i=6537,True
+2024-09-05 14:03:46.581775,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6539,
+2024-09-05 14:03:47.568004,SubsystemIdentification,ns=4;i=6236,S7
+2024-09-05 14:03:47.568004,BasicDataReadable,ns=4;i=6232,3
+2024-09-05 14:03:48.001265,FieldElementSpecificationRevision,ns=4;i=6233,1.6 (1.A)
+2024-09-05 14:03:48.441251,OperationStatus,ns=4;i=6234,6
+2024-09-05 14:03:48.883505,TechnicalPlace,ns=4;i=6211,TP_S7
+2024-09-05 14:03:49.543818,lat,ns=4;i=6212,32.343
+2024-09-05 14:03:49.989258,lon,ns=4;i=6213,74.655
+2024-09-05 14:03:50.428824,trackEdgeId,ns=4;i=6214,1
+2024-09-05 14:03:50.983963,trackKm,ns=4;i=6215,1.23
+2024-09-05 14:03:51.433112,IsMaintenanceMode,ns=4;i=6216,False
+2024-09-05 14:03:52.082748,ableToMoveStatus,ns=4;i=6542,0
+2024-09-05 14:03:52.529213,position,ns=4;i=6222,0
+2024-09-05 14:03:53.068521,index,ns=4;i=6219,PM_07
+2024-09-05 14:03:53.502914,isCrucial,ns=4;i=6220,True
+2024-09-05 14:03:54.035252,machineType,ns=4;i=6221,1
+2024-09-05 14:03:54.476799,timeOffsetStartLeft,ns=4;i=6543,0.0
+2024-09-05 14:03:54.925034,timeOffsetStartRight,ns=4;i=6544,0.0
+2024-09-05 14:03:55.487922,turnCounter,ns=4;i=6223,
+2024-09-05 14:03:55.930159,aggregateAbleToMoveStatus ,ns=4;i=6545,1
+2024-09-05 14:03:56.575008,lastCommandedPosition ,ns=4;i=6252,0
+2024-09-05 14:03:57.016524,pointAbleToMoveStatus,ns=4;i=6548,0
+2024-09-05 14:03:57.459269,position,ns=4;i=6255,0
+2024-09-05 14:03:57.903866,positionDegraded ,ns=4;i=6256,4
+2024-09-05 14:03:58.552367,movementStatus,ns=4;i=6253,0
+2024-09-05 14:03:59.006446,driveCutoffPrinciple,ns=4;i=6546,1
+2024-09-05 14:03:59.440780,isUsingRedrive,ns=4;i=6251,False
+2024-09-05 14:03:59.995745,pSamplingInterval ,ns=4;i=6257,10.0
+2024-09-05 14:04:00.424656,pointOperationTimer,ns=4;i=6254,10.0
+2024-09-05 14:04:01.083194,turnCounter ,ns=4;i=6551,
+2024-09-05 14:04:01.083194,StatusTechnical,ns=4;i=6261,0
+2024-09-05 14:04:01.534913,isTimeSynchronised,ns=4;i=6547,True
+2024-09-05 14:04:01.969396,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6549,
+2024-09-05 14:04:02.393306,SubsystemIdentification,ns=4;i=6262,S8
+2024-09-05 14:04:03.051069,BasicDataReadable,ns=4;i=6258,3
+2024-09-05 14:04:03.486279,FieldElementSpecificationRevision,ns=4;i=6259,1.6 (1.A)
+2024-09-05 14:04:03.929566,OperationStatus,ns=4;i=6260,6
+2024-09-05 14:04:04.488352,TechnicalPlace,ns=4;i=6237,TP_S8
+2024-09-05 14:04:04.937322,lat,ns=4;i=6238,32.343
+2024-09-05 14:04:05.380795,lon,ns=4;i=6239,74.655
+2024-09-05 14:04:05.923219,trackEdgeId,ns=4;i=6240,1
+2024-09-05 14:04:06.566560,trackKm,ns=4;i=6241,1.23
+2024-09-05 14:04:06.568891,IsMaintenanceMode,ns=4;i=6242,False
+2024-09-05 14:04:07.443601,ableToMoveStatus,ns=4;i=6552,0
+2024-09-05 14:04:07.884790,position,ns=4;i=6248,0
+2024-09-05 14:04:08.539933,index,ns=4;i=6245,PM_08
+2024-09-05 14:04:08.539933,isCrucial,ns=4;i=6246,True
+2024-09-05 14:04:09.509856,machineType,ns=4;i=6247,1
+2024-09-05 14:04:09.512194,timeOffsetStartLeft,ns=4;i=6553,0.0
+2024-09-05 14:04:09.933953,timeOffsetStartRight,ns=4;i=6554,0.0
+2024-09-05 14:04:10.476789,turnCounter,ns=4;i=6249,
+2024-09-05 14:04:11.601371,aggregateAbleToMoveStatus ,ns=4;i=6555,1
+2024-09-05 14:04:11.601371,lastCommandedPosition ,ns=4;i=6278,0
+2024-09-05 14:04:12.589627,pointAbleToMoveStatus,ns=4;i=6558,0
+2024-09-05 14:04:12.589627,position,ns=4;i=6281,0
+2024-09-05 14:04:13.031388,positionDegraded ,ns=4;i=6282,4
+2024-09-05 14:04:13.574159,movementStatus,ns=4;i=6279,0
+2024-09-05 14:04:14.003117,driveCutoffPrinciple,ns=4;i=6556,1
+2024-09-05 14:04:14.435594,isUsingRedrive,ns=4;i=6277,False
+2024-09-05 14:04:14.991781,pSamplingInterval ,ns=4;i=6283,10.0
+2024-09-05 14:04:15.417605,pointOperationTimer,ns=4;i=6280,10.0
+2024-09-05 14:04:16.089444,turnCounter ,ns=4;i=6561,
+2024-09-05 14:04:16.410600,StatusTechnical,ns=4;i=6287,0
+2024-09-05 14:04:17.083815,isTimeSynchronised,ns=4;i=6557,True
+2024-09-05 14:04:17.514099,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6559,
+2024-09-05 14:04:18.067598,SubsystemIdentification,ns=4;i=6288,S9
+2024-09-05 14:04:18.500988,BasicDataReadable,ns=4;i=6284,3
+2024-09-05 14:04:19.054473,FieldElementSpecificationRevision,ns=4;i=6285,1.6 (1.A)
+2024-09-05 14:04:19.484862,OperationStatus,ns=4;i=6286,6
+2024-09-05 14:04:19.924534,TechnicalPlace,ns=4;i=6263,TP_S9
+2024-09-05 14:04:20.563143,lat,ns=4;i=6264,32.343
+2024-09-05 14:04:20.563143,lon,ns=4;i=6265,74.655
+2024-09-05 14:04:21.009385,trackEdgeId,ns=4;i=6266,1
+2024-09-05 14:04:21.446422,trackKm,ns=4;i=6267,1.23
+2024-09-05 14:04:21.992397,IsMaintenanceMode,ns=4;i=6268,False
+2024-09-05 14:04:23.088109,ableToMoveStatus,ns=4;i=6562,0
+2024-09-05 14:04:23.088109,position,ns=4;i=6274,0
+2024-09-05 14:04:23.517665,index,ns=4;i=6271,PM_09
+2024-09-05 14:04:23.962254,isCrucial,ns=4;i=6272,True
+2024-09-05 14:04:24.399209,machineType,ns=4;i=6273,1
+2024-09-05 14:04:25.060868,timeOffsetStartLeft,ns=4;i=6563,0.0
+2024-09-05 14:04:25.494878,timeOffsetStartRight,ns=4;i=6564,0.0
+2024-09-05 14:04:25.913415,turnCounter,ns=4;i=6275,
+2024-09-05 14:04:26.549988,aggregateAbleToMoveStatus ,ns=4;i=6023,1
+2024-09-05 14:04:26.977965,lastCommandedPosition ,ns=4;i=6304,0
+2024-09-05 14:04:27.417563,pointAbleToMoveStatus,ns=4;i=6026,0
+2024-09-05 14:04:28.088563,position,ns=4;i=6307,0
+2024-09-05 14:04:28.088563,positionDegraded ,ns=4;i=6308,4
+2024-09-05 14:04:28.510322,movementStatus,ns=4;i=6305,0
+2024-09-05 14:04:28.945216,driveCutoffPrinciple,ns=4;i=6024,1
+2024-09-05 14:04:29.480901,isUsingRedrive,ns=4;i=6303,False
+2024-09-05 14:04:29.908855,pSamplingInterval ,ns=4;i=6309,10.0
+2024-09-05 14:04:30.550878,pointOperationTimer,ns=4;i=6306,10.0
+2024-09-05 14:04:30.993803,turnCounter ,ns=4;i=6029,
+2024-09-05 14:04:31.434576,StatusTechnical,ns=4;i=6313,0
+2024-09-05 14:04:32.090818,isTimeSynchronised,ns=4;i=6025,True
+2024-09-05 14:04:32.544024,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6027,
+2024-09-05 14:04:32.973553,SubsystemIdentification,ns=4;i=6314,S10
+2024-09-05 14:04:33.391213,BasicDataReadable,ns=4;i=6310,3
+2024-09-05 14:04:34.046663,FieldElementSpecificationRevision,ns=4;i=6311,1.6 (1.A)
+2024-09-05 14:04:34.050705,OperationStatus,ns=4;i=6312,6
+2024-09-05 14:04:34.482992,TechnicalPlace,ns=4;i=6289,TP_S10
+2024-09-05 14:04:34.928250,lat,ns=4;i=6290,32.343
+2024-09-05 14:04:35.467568,lon,ns=4;i=6291,74.655
+2024-09-05 14:04:35.915882,trackEdgeId,ns=4;i=6292,1
+2024-09-05 14:04:36.551059,trackKm,ns=4;i=6293,1.23
+2024-09-05 14:04:36.877480,IsMaintenanceMode,ns=4;i=6294,False
+2024-09-05 14:04:37.532149,ableToMoveStatus,ns=4;i=6030,0
+2024-09-05 14:04:38.076906,position,ns=4;i=6300,0
+2024-09-05 14:04:38.509243,index,ns=4;i=6297,PM_10
+2024-09-05 14:04:38.950859,isCrucial,ns=4;i=6298,True
+2024-09-05 14:04:39.499415,machineType,ns=4;i=6299,1
+2024-09-05 14:04:39.920333,timeOffsetStartLeft,ns=4;i=6031,0.0
+2024-09-05 14:04:40.583811,timeOffsetStartRight,ns=4;i=6032,0.0
+2024-09-05 14:04:41.032312,turnCounter,ns=4;i=6301,
+2024-09-05 14:04:41.918195,aggregateAbleToMoveStatus ,ns=4;i=6033,1
+2024-09-05 14:04:42.567330,lastCommandedPosition ,ns=4;i=6330,0
+2024-09-05 14:04:42.569254,pointAbleToMoveStatus,ns=4;i=6047,0
+2024-09-05 14:04:43.015402,position,ns=4;i=6333,0
+2024-09-05 14:04:43.458391,positionDegraded ,ns=4;i=6334,4
+2024-09-05 14:04:44.017626,movementStatus,ns=4;i=6331,0
+2024-09-05 14:04:44.461054,driveCutoffPrinciple,ns=4;i=6034,1
+2024-09-05 14:04:44.890594,isUsingRedrive,ns=4;i=6329,False
+2024-09-05 14:04:45.443512,pSamplingInterval ,ns=4;i=6335,10.0
+2024-09-05 14:04:45.872588,pointOperationTimer,ns=4;i=6332,10.0
+2024-09-05 14:04:46.506118,turnCounter ,ns=4;i=6431,
+2024-09-05 14:04:46.937283,StatusTechnical,ns=4;i=6339,0
+2024-09-05 14:04:47.582382,isTimeSynchronised,ns=4;i=6035,True
+2024-09-05 14:04:47.583924,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6429,
+2024-09-05 14:04:48.031802,SubsystemIdentification,ns=4;i=6340,S11
+2024-09-05 14:04:48.590688,BasicDataReadable,ns=4;i=6336,3
+2024-09-05 14:04:49.016926,FieldElementSpecificationRevision,ns=4;i=6337,1.6 (1.A)
+2024-09-05 14:04:49.461256,OperationStatus,ns=4;i=6338,6
+2024-09-05 14:04:50.002983,TechnicalPlace,ns=4;i=6315,TP_S11
+2024-09-05 14:04:50.447705,lat,ns=4;i=6316,32.343
+2024-09-05 14:04:50.892779,lon,ns=4;i=6317,74.655
+2024-09-05 14:04:51.448873,trackEdgeId,ns=4;i=6318,1
+2024-09-05 14:04:51.877408,trackKm,ns=4;i=6319,1.23
+2024-09-05 14:04:52.543089,IsMaintenanceMode,ns=4;i=6320,False
+2024-09-05 14:04:52.988858,ableToMoveStatus,ns=4;i=6432,0
+2024-09-05 14:04:53.434256,lastCommandedPosition ,ns=4;i=6304,1
+2024-09-05 14:04:53.439825,pointAbleToMoveStatus,ns=4;i=6026,1
+2024-09-05 14:04:53.443844,position,ns=4;i=6307,1
+2024-09-05 14:04:53.447354,movementStatus,ns=4;i=6305,3
+2024-09-05 14:04:53.448544,StatusTechnical,ns=4;i=6313,1
+2024-09-05 14:04:53.451417,ableToMoveStatus,ns=4;i=6030,1
+2024-09-05 14:04:53.455737,position,ns=4;i=6300,1
+2024-09-05 14:04:53.459111,position,ns=4;i=6326,0
+2024-09-05 14:04:53.894873,index,ns=4;i=6323,PM_11
+2024-09-05 14:04:54.435295,isCrucial,ns=4;i=6324,True
+2024-09-05 14:04:55.071449,machineType,ns=4;i=6325,1
+2024-09-05 14:04:55.500019,timeOffsetStartLeft,ns=4;i=6433,0.0
+2024-09-05 14:04:55.926382,timeOffsetStartRight,ns=4;i=6434,0.0
+2024-09-05 14:04:56.575750,turnCounter,ns=4;i=6327,
+2024-09-05 14:04:57.005031,aggregateAbleToMoveStatus ,ns=4;i=6435,1
+2024-09-05 14:04:57.441693,lastCommandedPosition ,ns=4;i=6356,0
+2024-09-05 14:04:57.865123,pointAbleToMoveStatus,ns=4;i=6438,0
+2024-09-05 14:04:58.536043,position,ns=4;i=6359,0
+2024-09-05 14:04:58.536043,aggregateAbleToMoveStatus ,ns=4;i=6023,2
+2024-09-05 14:04:58.551765,pointAbleToMoveStatus,ns=4;i=6026,2
+2024-09-05 14:04:58.552277,position,ns=4;i=6307,4
+2024-09-05 14:04:58.552277,StatusTechnical,ns=4;i=6313,4
+2024-09-05 14:04:58.552277,ableToMoveStatus,ns=4;i=6030,2
+2024-09-05 14:04:58.552277,position,ns=4;i=6300,4
+2024-09-05 14:04:58.552277,positionDegraded ,ns=4;i=6360,4
+2024-09-05 14:04:58.991208,movementStatus,ns=4;i=6357,0
+2024-09-05 14:04:59.430559,driveCutoffPrinciple,ns=4;i=6436,1
+2024-09-05 14:04:59.865744,isUsingRedrive,ns=4;i=6355,False
+2024-09-05 14:05:00.526748,pSamplingInterval ,ns=4;i=6361,10.0
+2024-09-05 14:05:00.961818,pointOperationTimer,ns=4;i=6358,10.0
+2024-09-05 14:05:01.404801,turnCounter ,ns=4;i=6467,
+2024-09-05 14:05:02.058726,StatusTechnical,ns=4;i=6365,0
+2024-09-05 14:05:02.074250,isTimeSynchronised,ns=4;i=6437,True
+2024-09-05 14:05:02.517942,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6465,
+2024-09-05 14:05:02.963759,SubsystemIdentification,ns=4;i=6366,S12
+2024-09-05 14:05:03.517459,ableToMoveStatus,ns=4;i=6030,1
+2024-09-05 14:05:03.519184,BasicDataReadable,ns=4;i=6362,3
+2024-09-05 14:05:03.949820,FieldElementSpecificationRevision,ns=4;i=6363,1.6 (1.A)
+2024-09-05 14:05:04.391794,OperationStatus,ns=4;i=6364,6
+2024-09-05 14:05:04.949623,TechnicalPlace,ns=4;i=6341,TP_S12
+2024-09-05 14:05:05.377323,lat,ns=4;i=6342,32.343
+2024-09-05 14:05:06.027710,lon,ns=4;i=6343,74.655
+2024-09-05 14:05:06.465081,trackEdgeId,ns=4;i=6344,1
+2024-09-05 14:05:06.894282,trackKm,ns=4;i=6345,1.23
+2024-09-05 14:05:07.558794,IsMaintenanceMode,ns=4;i=6346,False
+2024-09-05 14:05:07.995457,ableToMoveStatus,ns=4;i=6565,0
+2024-09-05 14:05:08.439712,position,ns=4;i=6352,0
+2024-09-05 14:05:08.441131,aggregateAbleToMoveStatus ,ns=4;i=6023,1
+2024-09-05 14:05:08.443463,pointAbleToMoveStatus,ns=4;i=6026,1
+2024-09-05 14:05:08.444781,position,ns=4;i=6307,1
+2024-09-05 14:05:08.448384,StatusTechnical,ns=4;i=6313,1
+2024-09-05 14:05:08.452554,position,ns=4;i=6300,1
+2024-09-05 14:05:08.896486,index,ns=4;i=6349,PM_12
+2024-09-05 14:05:09.453516,isCrucial,ns=4;i=6350,True
+2024-09-05 14:05:09.894949,machineType,ns=4;i=6351,1
+2024-09-05 14:05:10.566048,timeOffsetStartLeft,ns=4;i=6566,0.0
+2024-09-05 14:05:10.566048,timeOffsetStartRight,ns=4;i=6567,0.0
+2024-09-05 14:05:11.551092,turnCounter,ns=4;i=6353,
+2024-09-05 14:05:11.982288,aggregateAbleToMoveStatus ,ns=4;i=6468,1
+2024-09-05 14:05:12.422998,lastCommandedPosition ,ns=4;i=6382,0
+2024-09-05 14:05:13.077678,pointAbleToMoveStatus,ns=4;i=6471,0
+2024-09-05 14:05:13.077678,position,ns=4;i=6385,0
+2024-09-05 14:05:13.518038,lastCommandedPosition ,ns=4;i=6304,2
+2024-09-05 14:05:13.518038,position,ns=4;i=6307,3
+2024-09-05 14:05:13.518038,movementStatus,ns=4;i=6305,2
+2024-09-05 14:05:13.518038,position,ns=4;i=6300,3
+2024-09-05 14:05:13.518038,positionDegraded ,ns=4;i=6386,4
+2024-09-05 14:05:13.968788,movementStatus,ns=4;i=6383,0
+2024-09-05 14:05:14.410388,driveCutoffPrinciple,ns=4;i=6469,1
+2024-09-05 14:05:15.063196,isUsingRedrive,ns=4;i=6381,False
+2024-09-05 14:05:15.504729,pSamplingInterval ,ns=4;i=6387,10.0
+2024-09-05 14:05:15.946060,pointOperationTimer,ns=4;i=6384,10.0
+2024-09-05 14:05:16.378509,turnCounter ,ns=4;i=6474,
+2024-09-05 14:05:16.916174,StatusTechnical,ns=4;i=6391,0
+2024-09-05 14:05:17.565159,isTimeSynchronised,ns=4;i=6470,True
+2024-09-05 14:05:18.018317,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6472,
+2024-09-05 14:05:18.460178,SubsystemIdentification,ns=4;i=6392,S13
+2024-09-05 14:05:18.462262,position,ns=4;i=6307,2
+2024-09-05 14:05:18.464526,movementStatus,ns=4;i=6305,3
+2024-09-05 14:05:18.466717,position,ns=4;i=6300,2
+2024-09-05 14:05:18.898807,BasicDataReadable,ns=4;i=6388,3
+2024-09-05 14:05:19.555239,FieldElementSpecificationRevision,ns=4;i=6389,1.6 (1.A)
+2024-09-05 14:05:19.555239,OperationStatus,ns=4;i=6390,6
+2024-09-05 14:05:19.994657,TechnicalPlace,ns=4;i=6367,TP_S13
+2024-09-05 14:05:20.430473,lat,ns=4;i=6368,32.343
+2024-09-05 14:05:21.084076,lon,ns=4;i=6369,74.655
+2024-09-05 14:05:21.527054,trackEdgeId,ns=4;i=6370,1
+2024-09-05 14:05:21.963837,trackKm,ns=4;i=6371,1.23
+2024-09-05 14:05:22.402503,IsMaintenanceMode,ns=4;i=6372,False
+2024-09-05 14:05:23.060292,ableToMoveStatus,ns=4;i=6568,0
+2024-09-05 14:05:23.498982,position,ns=4;i=6378,0
+2024-09-05 14:05:23.501044,lastCommandedPosition ,ns=4;i=6304,1
+2024-09-05 14:05:23.501044,position,ns=4;i=6307,3
+2024-09-05 14:05:23.504427,movementStatus,ns=4;i=6305,1
+2024-09-05 14:05:23.506462,position,ns=4;i=6300,3
+2024-09-05 14:05:23.933289,index,ns=4;i=6375,PM_13
+2024-09-05 14:05:24.566065,isCrucial,ns=4;i=6376,True
+2024-09-05 14:05:24.567577,machineType,ns=4;i=6377,1
+2024-09-05 14:05:24.983349,timeOffsetStartLeft,ns=4;i=6569,0.0
+2024-09-05 14:05:25.435250,timeOffsetStartRight,ns=4;i=6570,0.0
+2024-09-05 14:05:25.981189,turnCounter,ns=4;i=6379,
+2024-09-05 14:05:27.089336,aggregateAbleToMoveStatus ,ns=4;i=6475,1
+2024-09-05 14:05:27.092842,lastCommandedPosition ,ns=4;i=6408,0
+2024-09-05 14:05:27.540223,pointAbleToMoveStatus,ns=4;i=6478,0
+2024-09-05 14:05:27.998210,position,ns=4;i=6411,0
+2024-09-05 14:05:28.435356,positionDegraded ,ns=4;i=6412,4
+2024-09-05 14:05:28.435968,position,ns=4;i=6307,1
+2024-09-05 14:05:28.435968,movementStatus,ns=4;i=6305,3
+2024-09-05 14:05:28.435968,position,ns=4;i=6300,1
+2024-09-05 14:05:28.983521,movementStatus,ns=4;i=6409,0
+2024-09-05 14:05:29.420115,driveCutoffPrinciple,ns=4;i=6476,1
+2024-09-05 14:05:30.079408,isUsingRedrive,ns=4;i=6407,False
+2024-09-05 14:05:30.407340,pSamplingInterval ,ns=4;i=6413,10.0
+2024-09-05 14:05:31.079966,pointOperationTimer,ns=4;i=6410,10.0
+2024-09-05 14:05:31.527304,turnCounter ,ns=4;i=6481,
+2024-09-05 14:05:32.101325,StatusTechnical,ns=4;i=6417,0
+2024-09-05 14:05:32.530550,isTimeSynchronised,ns=4;i=6477,True
+2024-09-05 14:05:33.101793,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6479,
+2024-09-05 14:05:33.543590,SubsystemIdentification,ns=4;i=6418,S14
+2024-09-05 14:05:33.984538,BasicDataReadable,ns=4;i=6414,3
+2024-09-05 14:05:34.578253,FieldElementSpecificationRevision,ns=4;i=6415,1.6 (1.A)
+2024-09-05 14:05:35.017142,OperationStatus,ns=4;i=6416,6
+2024-09-05 14:05:35.455033,TechnicalPlace,ns=4;i=6393,TP_S14
+2024-09-05 14:05:36.003037,lat,ns=4;i=6394,32.343
+2024-09-05 14:05:36.443292,lon,ns=4;i=6395,74.655
+2024-09-05 14:05:36.879898,trackEdgeId,ns=4;i=6396,1
+2024-09-05 14:05:37.517225,trackKm,ns=4;i=6397,1.23
+2024-09-05 14:05:37.517225,IsMaintenanceMode,ns=4;i=6398,False
+2024-09-05 14:05:38.408708,ableToMoveStatus,ns=4;i=6502,0
+2024-09-05 14:05:39.063328,position,ns=4;i=6404,0
+2024-09-05 14:05:39.067547,index,ns=4;i=6401,PM_14
+2024-09-05 14:05:39.504749,isCrucial,ns=4;i=6402,True
+2024-09-05 14:05:39.946615,machineType,ns=4;i=6403,1
+2024-09-05 14:05:40.491499,timeOffsetStartLeft,ns=4;i=6503,0.0
+2024-09-05 14:05:40.937826,timeOffsetStartRight,ns=4;i=6504,0.0
+2024-09-05 14:05:41.383209,turnCounter,ns=4;i=6405,
+2024-09-05 14:05:42.036478,aggregateAbleToMoveStatus ,ns=4;i=6482,1
+2024-09-05 14:05:42.474657,lastCommandedPosition ,ns=4;i=6444,0
+2024-09-05 14:05:42.917302,pointAbleToMoveStatus,ns=4;i=6485,0
+2024-09-05 14:05:43.557346,position,ns=4;i=6447,0
+2024-09-05 14:05:43.985459,positionDegraded ,ns=4;i=6448,4
+2024-09-05 14:05:44.422847,movementStatus,ns=4;i=6445,0
+2024-09-05 14:05:45.084733,driveCutoffPrinciple,ns=4;i=6483,1
+2024-09-05 14:05:45.086919,isUsingRedrive,ns=4;i=6443,False
+2024-09-05 14:05:45.519069,pSamplingInterval ,ns=4;i=6449,10.0
+2024-09-05 14:05:45.946883,pointOperationTimer,ns=4;i=6446,10.0
+2024-09-05 14:05:46.499691,turnCounter ,ns=4;i=6488,
+2024-09-05 14:05:46.945481,StatusTechnical,ns=4;i=6453,0
+2024-09-05 14:05:47.380928,isTimeSynchronised,ns=4;i=6484,True
+2024-09-05 14:05:48.047757,StatusTechnicalManufacturerSpecificMessage,ns=4;i=6486,
+2024-09-05 14:05:48.600694,SubsystemIdentification,ns=4;i=6454,Test
+2024-09-05 14:05:48.601565,lastCommandedPosition ,ns=4;i=6304,0
+2024-09-05 14:05:48.605179,pointAbleToMoveStatus,ns=4;i=6026,0
+2024-09-05 14:05:48.605179,position,ns=4;i=6307,0
+2024-09-05 14:05:48.608749,movementStatus,ns=4;i=6305,0
+2024-09-05 14:05:48.608749,StatusTechnical,ns=4;i=6313,0
+2024-09-05 14:05:48.611484,ableToMoveStatus,ns=4;i=6030,0
+2024-09-05 14:05:48.611484,position,ns=4;i=6300,0
+2024-09-05 14:05:49.068677,BasicDataReadable,ns=4;i=6450,3
+2024-09-05 14:05:49.504726,FieldElementSpecificationRevision,ns=4;i=6451,1.6 (1.A)
+2024-09-05 14:05:49.941621,OperationStatus,ns=4;i=6452,6
+2024-09-05 14:05:50.586745,TechnicalPlace,ns=4;i=6419,TP_S15
+2024-09-05 14:05:50.591431,lat,ns=4;i=6420,32.343
+2024-09-05 14:05:51.017535,lon,ns=4;i=6421,74.655
+2024-09-05 14:05:51.459214,trackEdgeId,ns=4;i=6422,1
+2024-09-05 14:05:51.887604,trackKm,ns=4;i=6423,1.23
+2024-09-05 14:05:52.552987,IsMaintenanceMode,ns=4;i=6424,False
+2024-09-05 14:05:52.997061,ableToMoveStatus,ns=4;i=6499,0
+2024-09-05 14:05:53.426996,position,ns=4;i=6440,0
+2024-09-05 14:05:53.968628,index,ns=4;i=6427,PM_15
+2024-09-05 14:05:54.416268,isCrucial,ns=4;i=6428,True
+2024-09-05 14:05:55.057247,machineType,ns=4;i=6439,1
+2024-09-05 14:05:55.385194,timeOffsetStartLeft,ns=4;i=6500,0.0
+2024-09-05 14:05:56.050846,timeOffsetStartRight,ns=4;i=6501,0.0
+2024-09-05 14:05:56.485605,turnCounter,ns=4;i=6441,
+2024-09-05 14:05:57.031015,isTimeSynchronised,ns=3;i=6222,True
+2024-09-05 14:05:57.451416,replacementIndication,ns=3;i=6139,1
+2024-09-05 14:05:57.986777,statusTechnical,ns=3;i=6143,1
+2024-09-05 14:05:58.420118,hardwareRevision,ns=3;i=6135,v1.0
+2024-09-05 14:05:59.052554,manufacturer,ns=3;i=6136,EU-Rail
+2024-09-05 14:05:59.474226,manufacturerModel,ns=3;i=6137,EULYNX BL4R3 Point OC
+2024-09-05 14:05:59.932558,manufacturingDateTime,ns=3;i=6138,2024-07-15 10:32:17
+2024-09-05 14:06:00.577555,serialNumber,ns=3;i=6141,SN_OC_P_1_V1
+2024-09-05 14:06:01.004779,softwareRevision,ns=3;i=6142,v1.0
+2024-09-05 14:06:01.441738,label ,ns=3;i=6223,Equipment
+2024-09-05 14:06:02.086610,isTimeSynchronised,ns=3;i=6224,True
+2024-09-05 14:06:02.524919,replacementIndication,ns=3;i=6104,1
+2024-09-05 14:06:02.968547,statusTechnical,ns=3;i=6107,1
+2024-09-05 14:06:03.411222,hardwareRevision,ns=3;i=6096,v1.0
+2024-09-05 14:06:04.051562,manufacturer,ns=3;i=6097,EU-Rail
+2024-09-05 14:06:04.052048,manufacturerModel,ns=3;i=6098,EULYNX BL4R3 Point Safe Controller
+2024-09-05 14:06:04.491603,manufacturingDateTime,ns=3;i=6099,2024-07-15 10:32:17
+2024-09-05 14:06:04.929916,serialNumber,ns=3;i=6105,SN_OC_P_1_V1
+2024-09-05 14:06:05.461783,softwareRevision,ns=3;i=6106,v1.0
+2024-09-05 14:06:05.888096,label ,ns=3;i=6225,Equipment
+2024-09-05 14:06:06.534611,statusTechnical,ns=3;i=6170,1
+2024-09-05 14:06:06.976574,statusTechnicalManufacturerSpecificMessage,ns=3;i=6274,
+2024-09-05 14:06:07.418575,operationStatus,ns=3;i=6166,1
+2024-09-05 14:06:08.069123,coolingFanStatus,ns=3;i=6270,1
+2024-09-05 14:06:08.386600,TemperatureStatus,ns=3;i=6171,1
+2024-09-05 14:06:09.030692,cpuHealthStatus,ns=3;i=6162,1
+2024-09-05 14:06:09.480423,cpuLoadStatus,ns=3;i=6163,1
+2024-09-05 14:06:10.040988,ramHealthStatus,ns=3;i=6167,1
+2024-09-05 14:06:10.466467,bootingLastReason,ns=3;i=6269,1
+2024-09-05 14:06:10.903584,systemDescription,ns=3;i=6276,Object Controller for Point Subsystem
+2024-09-05 14:06:11.464717,operatingSystem,ns=3;i=6273,Linux Debian Bookworm
+2024-09-05 14:06:11.905408,label ,ns=3;i=6272,Controller
+2024-09-05 14:06:12.576555,ramSize ,ns=3;i=6169,100
+2024-09-05 14:06:12.576555,bootingLastDateTime,ns=3;i=6268,2024-07-15 10:32:17
+2024-09-05 14:06:13.550696,isActive,ns=3;i=6174,True
+2024-09-05 14:06:13.988825,isAvailable,ns=3;i=6175,True
+2024-09-05 14:06:14.417406,isExcludedFromRedundancyGroup,ns=3;i=6176,False
+2024-09-05 14:06:15.065260,statusTechnical,ns=3;i=6185,1
+2024-09-05 14:06:15.498706,statusTechnicalManufacturerSpecificMessage,ns=3;i=6283,
+2024-09-05 14:06:15.946703,operationStatus,ns=3;i=6181,1
+2024-09-05 14:06:16.382948,coolingFanStatus,ns=3;i=6279,1
+2024-09-05 14:06:17.015398,TemperatureStatus,ns=3;i=6187,1
+2024-09-05 14:06:17.017103,cpuHealthStatus,ns=3;i=6178,1
+2024-09-05 14:06:17.444264,cpuLoadStatus,ns=3;i=6179,1
+2024-09-05 14:06:17.885945,ramHealthStatus,ns=3;i=6183,1
+2024-09-05 14:06:18.548600,bootingLastReason,ns=3;i=6278,1
+2024-09-05 14:06:18.985488,systemDescription,ns=3;i=6285,Object Controller for Point Subsystem
+2024-09-05 14:06:19.428242,operatingSystem,ns=3;i=6282,Linux Debian Bookworm
+2024-09-05 14:06:20.086409,label ,ns=3;i=6281,Controller
+2024-09-05 14:06:20.086409,ramSize ,ns=3;i=6184,100
+2024-09-05 14:06:21.084034,bootingLastDateTime,ns=3;i=6277,2024-07-15 10:32:17
+2024-09-05 14:06:21.518868,isActive,ns=3;i=6189,True
+2024-09-05 14:06:22.072321,isAvailable,ns=3;i=6190,True
+2024-09-05 14:06:22.502699,isExcludedFromRedundancyGroup,ns=3;i=6191,False
+2024-09-05 14:06:23.048327,statusTechnical,ns=3;i=6198,1
+2024-09-05 14:06:23.496137,statusTechnicalManufacturerSpecificMessage,ns=3;i=6314,
+2024-09-05 14:06:23.945489,operationStatus,ns=3;i=6195,1
+2024-09-05 14:06:24.495809,coolingFanStatus,ns=3;i=6288,1
+2024-09-05 14:06:24.923387,TemperatureStatus,ns=3;i=6199,1
+2024-09-05 14:06:25.584628,cpuHealthStatus,ns=3;i=6192,1
+2024-09-05 14:06:26.029393,cpuLoadStatus,ns=3;i=6193,1
+2024-09-05 14:06:26.463814,ramHealthStatus,ns=3;i=6196,1
+2024-09-05 14:06:26.911218,bootingLastReason,ns=3;i=6287,1
+2024-09-05 14:06:27.465598,systemDescription,ns=3;i=6316,Object Controller for Point Subsystem
+2024-09-05 14:06:27.903021,operatingSystem,ns=3;i=6293,Linux Debian Bookworm
+2024-09-05 14:06:28.560641,label ,ns=3;i=6292,Controller
+2024-09-05 14:06:28.560641,ramSize ,ns=3;i=6197,100
+2024-09-05 14:06:29.019599,bootingLastDateTime,ns=3;i=6286,2024-07-15 10:32:17
+2024-09-05 14:06:29.905262,isActive,ns=3;i=6201,True
+2024-09-05 14:06:30.544932,isAvailable,ns=3;i=6202,True
+2024-09-05 14:06:30.546912,isExcludedFromRedundancyGroup,ns=3;i=6203,False
+2024-09-05 14:06:31.405470,isAvailable,ns=3;i=6101,True
+2024-09-05 14:06:32.076360,label,ns=3;i=6102,ControllerRedundancyGroup
+2024-09-05 14:06:32.076360,minimumAvailable,ns=3;i=6103,2
+2024-09-05 14:06:32.934598,statusTechnical,ns=3;i=6294,1
+2024-09-05 14:06:33.484031,statusTechnicalManufacturerSpecificMessage,ns=3;i=6318,
+2024-09-05 14:06:33.919984,operationStatus,ns=3;i=6111,3
+2024-09-05 14:06:34.581244,macAddress,ns=3;i=6109,00:1A:2B:3C:4D:5E
+2024-09-05 14:06:34.583788,nominalBandwidth,ns=3;i=6110,1000000000
+2024-09-05 14:06:35.021912,label,ns=3;i=6317,PhysicalNetworkInterface
+2024-09-05 14:06:35.909544,isActive,ns=3;i=6296,True
+2024-09-05 14:06:36.457279,isAvailable,ns=3;i=6297,True
+2024-09-05 14:06:36.886609,isExcludedFromRedundancyGroup,ns=3;i=6298,False
+2024-09-05 14:06:37.532308,statusTechnical,ns=3;i=6303,1
+2024-09-05 14:06:37.961324,statusTechnicalManufacturerSpecificMessage,ns=3;i=6321,
+2024-09-05 14:06:38.384366,operationStatus,ns=3;i=6302,3
+2024-09-05 14:06:39.053262,macAddress,ns=3;i=6300,00:1A:2B:3C:4D:5E
+2024-09-05 14:06:39.053964,nominalBandwidth,ns=3;i=6301,1000000000
+2024-09-05 14:06:39.486993,label,ns=3;i=6320,PhysicalNetworkInterface
+2024-09-05 14:06:40.571514,isActive,ns=3;i=6305,True
+2024-09-05 14:06:40.571514,isAvailable,ns=3;i=6306,True
+2024-09-05 14:06:41.002298,isExcludedFromRedundancyGroup,ns=3;i=6307,False
+2024-09-05 14:06:41.868848,isAvailable,ns=3;i=6309,True
+2024-09-05 14:06:42.403778,label,ns=3;i=6310,PhysicalNetworkInterfaceRedundancyGroup
+2024-09-05 14:06:43.070094,minimumAvailable,ns=3;i=6311,1
+2024-09-05 14:06:43.522583,statusTechnical ,ns=3;i=6206,1
+2024-09-05 14:06:44.068621,statusTechnicalManufacturerSpecificMessage,ns=3;i=6350,
+2024-09-05 14:06:44.502285,temperatureStatus,ns=3;i=6352,1
+2024-09-05 14:06:45.053858,memorySize ,ns=3;i=6205,10000
+2024-09-05 14:06:45.486417,label ,ns=3;i=6325,Storage
+2024-09-05 14:06:45.906258,wearStatus,ns=3;i=6207,1
+2024-09-05 14:06:46.569921,isTimeSynchronised,ns=3;i=7295,False
+2024-09-05 14:06:46.990938,replacementIndication,ns=3;i=6893,2
+2024-09-05 14:06:47.428585,statusTechnical,ns=3;i=6891,4
+2024-09-05 14:06:47.960568,hardwareRevision,ns=3;i=6890,v1.0
+2024-09-05 14:06:48.390277,manufacturer,ns=3;i=6888,EU-Rail
+2024-09-05 14:06:49.037166,manufacturerModel,ns=3;i=6889,EULYNX BL4R3 Point OC
+2024-09-05 14:06:49.038164,replacementIndication,ns=3;i=6893,0
+2024-09-05 14:06:49.040166,manufacturingDateTime,ns=3;i=6894,2024-07-15 10:32:17
+2024-09-05 14:06:49.472098,serialNumber,ns=3;i=6895,SN_OC_P_2_V1
+2024-09-05 14:06:49.915624,softwareRevision,ns=3;i=6892,v1.0
+2024-09-05 14:06:50.552206,label ,ns=3;i=7296,Equipment
+2024-09-05 14:06:51.516212,isTimeSynchronised,ns=3;i=7299,False
+2024-09-05 14:06:51.519087,replacementIndication,ns=3;i=6781,0
+2024-09-05 14:06:51.954464,statusTechnical,ns=3;i=6859,4
+2024-09-05 14:06:52.486403,hardwareRevision,ns=3;i=6271,v1.0
+2024-09-05 14:06:52.936663,manufacturer,ns=3;i=6280,EU-Rail
+2024-09-05 14:06:53.384581,manufacturerModel,ns=3;i=6289,EULYNX BL4R3 Point Safe Controller
+2024-09-05 14:06:53.931936,isTimeSynchronised,ns=3;i=7295,True
+2024-09-05 14:06:53.940553,replacementIndication,ns=3;i=6893,1
+2024-09-05 14:06:53.946423,statusTechnical,ns=3;i=6891,1
+2024-09-05 14:06:53.950729,isTimeSynchronised,ns=3;i=7299,True
+2024-09-05 14:06:53.956261,replacementIndication,ns=3;i=6781,1
+2024-09-05 14:06:53.962219,statusTechnical,ns=3;i=6859,1
+2024-09-05 14:06:53.969068,hardwareRevision,ns=3;i=6271,v1.1
+2024-09-05 14:06:53.971711,manufacturingDateTime,ns=3;i=6765,2024-08-12 15:32:17
+2024-09-05 14:06:54.402654,serialNumber,ns=3;i=6857,SN_OC_P_2_V2
+2024-09-05 14:06:55.071134,softwareRevision,ns=3;i=6858,v1.1
+2024-09-05 14:06:55.408732,label ,ns=3;i=7300,Equipment
+2024-09-05 14:06:56.050348,statusTechnical,ns=3;i=6923,1
+2024-09-05 14:06:56.498906,statusTechnicalManufacturerSpecificMessage,ns=3;i=7340,
+2024-09-05 14:06:57.031936,operationStatus,ns=3;i=6920,1
+2024-09-05 14:06:57.467263,coolingFanStatus,ns=3;i=7337,1
+2024-09-05 14:06:57.890470,TemperatureStatus,ns=3;i=6924,1
+2024-09-05 14:06:58.441005,cpuHealthStatus,ns=3;i=6917,1
+2024-09-05 14:06:58.883794,cpuLoadStatus,ns=3;i=6918,1
+2024-09-05 14:06:59.553992,ramHealthStatus,ns=3;i=6921,1
+2024-09-05 14:06:59.890558,bootingLastReason,ns=3;i=7336,3
+2024-09-05 14:07:00.548632,systemDescription,ns=3;i=7342,Object Controller for Point Subsystem
+2024-09-05 14:07:00.987530,operatingSystem,ns=3;i=7339,Linux Debian Bullseye
+2024-09-05 14:07:01.531936,label ,ns=3;i=7338,Controller
+2024-09-05 14:07:01.954117,ramSize ,ns=3;i=6922,100
+2024-09-05 14:07:02.400579,bootingLastDateTime,ns=3;i=7335,2024-08-12 15:32:17
+2024-09-05 14:07:02.954698,isActive,ns=3;i=6914,True
+2024-09-05 14:07:03.398865,isAvailable,ns=3;i=6915,True
+2024-09-05 14:07:04.068429,isExcludedFromRedundancyGroup,ns=3;i=6916,False
+2024-09-05 14:07:05.040127,statusTechnical,ns=3;i=6935,1
+2024-09-05 14:07:05.042127,statusTechnicalManufacturerSpecificMessage,ns=3;i=7348,
+2024-09-05 14:07:05.469062,operationStatus,ns=3;i=6932,1
+2024-09-05 14:07:06.022929,coolingFanStatus,ns=3;i=7345,1
+2024-09-05 14:07:06.450149,TemperatureStatus,ns=3;i=6936,1
+2024-09-05 14:07:06.870253,cpuHealthStatus,ns=3;i=6929,1
+2024-09-05 14:07:07.405265,cpuLoadStatus,ns=3;i=6930,1
+2024-09-05 14:07:08.059756,ramHealthStatus,ns=3;i=6933,1
+2024-09-05 14:07:08.515933,bootingLastReason,ns=3;i=7344,1
+2024-09-05 14:07:08.951004,systemDescription,ns=3;i=7350,Object Controller for Point Subsystem
+2024-09-05 14:07:09.394828,operatingSystem,ns=3;i=7347,Linux Debian Bookworm
+2024-09-05 14:07:10.067973,label ,ns=3;i=7346,Controller
+2024-09-05 14:07:10.070680,ramSize ,ns=3;i=6934,100
+2024-09-05 14:07:11.034173,bootingLastDateTime,ns=3;i=7343,2024-07-15 10:32:17
+2024-09-05 14:07:11.473853,isActive,ns=3;i=6926,True
+2024-09-05 14:07:12.021603,isAvailable,ns=3;i=6927,True
+2024-09-05 14:07:12.454862,isExcludedFromRedundancyGroup,ns=3;i=6928,False
+2024-09-05 14:07:12.886949,statusTechnical,ns=3;i=6947,1
+2024-09-05 14:07:13.418125,statusTechnicalManufacturerSpecificMessage,ns=3;i=7356,
+2024-09-05 14:07:14.060783,hardwareRevision,ns=3;i=6271,v1.0
+2024-09-05 14:07:14.060783,manufacturingDateTime,ns=3;i=6765,2024-07-15 10:32:17
+2024-09-05 14:07:14.069273,serialNumber,ns=3;i=6857,SN_SC_P_2_V1
+2024-09-05 14:07:14.072295,softwareRevision,ns=3;i=6858,v1.0
+2024-09-05 14:07:14.077287,bootingLastReason,ns=3;i=7336,1
+2024-09-05 14:07:14.080286,operatingSystem,ns=3;i=7339,Linux Debian Bookworm
+2024-09-05 14:07:14.081335,bootingLastDateTime,ns=3;i=7335,2024-07-15 10:32:17
+2024-09-05 14:07:14.087812,operationStatus,ns=3;i=6944,1
+2024-09-05 14:07:14.509547,coolingFanStatus,ns=3;i=7353,1
+2024-09-05 14:07:15.040389,TemperatureStatus,ns=3;i=6948,1
+2024-09-05 14:07:15.484974,cpuHealthStatus,ns=3;i=6941,1
+2024-09-05 14:07:15.932217,cpuLoadStatus,ns=3;i=6942,1
+2024-09-05 14:07:16.463086,ramHealthStatus,ns=3;i=6945,1
+2024-09-05 14:07:16.894025,bootingLastReason,ns=3;i=7352,1
+2024-09-05 14:07:17.522589,systemDescription,ns=3;i=7358,Object Controller for Point Subsystem
+2024-09-05 14:07:17.526972,operatingSystem,ns=3;i=7355,Linux Debian Bookworm
+2024-09-05 14:07:18.072022,label ,ns=3;i=7354,Controller
+2024-09-05 14:07:18.504128,ramSize ,ns=3;i=6946,100
+2024-09-05 14:07:19.041611,bootingLastDateTime,ns=3;i=7351,2024-07-15 10:32:17
+2024-09-05 14:07:19.916901,isActive,ns=3;i=6938,True
+2024-09-05 14:07:20.554302,isAvailable,ns=3;i=6939,True
+2024-09-05 14:07:20.557816,isExcludedFromRedundancyGroup,ns=3;i=6940,False
+2024-09-05 14:07:21.406806,isAvailable,ns=3;i=6968,True
+2024-09-05 14:07:22.036384,label,ns=3;i=6969,ControllerRedundancyGroup
+2024-09-05 14:07:22.037412,minimumAvailable,ns=3;i=6970,2
+2024-09-05 14:07:22.920671,statusTechnical,ns=3;i=6957,1
+2024-09-05 14:07:23.569562,statusTechnicalManufacturerSpecificMessage,ns=3;i=7360,
+2024-09-05 14:07:23.571564,operationStatus,ns=3;i=6956,3
+2024-09-05 14:07:24.002219,macAddress,ns=3;i=6954,00:1A:2B:3C:4D:5E
+2024-09-05 14:07:24.434408,nominalBandwidth,ns=3;i=6955,1000000000
+2024-09-05 14:07:25.083227,label,ns=3;i=7359,PhysicalNetworkInterface
+2024-09-05 14:07:25.505035,isActive,ns=3;i=6950,True
+2024-09-05 14:07:25.937184,isAvailable,ns=3;i=6951,True
+2024-09-05 14:07:26.572538,isExcludedFromRedundancyGroup,ns=3;i=6952,False
+2024-09-05 14:07:27.017117,statusTechnical,ns=3;i=6966,1
+2024-09-05 14:07:27.446508,statusTechnicalManufacturerSpecificMessage,ns=3;i=7363,
+2024-09-05 14:07:27.999394,operationStatus,ns=3;i=6965,3
+2024-09-05 14:07:28.417278,macAddress,ns=3;i=6963,00:1A:2B:3C:4D:5E
+2024-09-05 14:07:29.078341,nominalBandwidth,ns=3;i=6964,1000000000
+2024-09-05 14:07:29.080808,lastCommandedPosition ,ns=4;i=6304,1
+2024-09-05 14:07:29.080808,pointAbleToMoveStatus,ns=4;i=6026,1
+2024-09-05 14:07:29.084033,position,ns=4;i=6307,1
+2024-09-05 14:07:29.084546,movementStatus,ns=4;i=6305,3
+2024-09-05 14:07:29.085984,StatusTechnical,ns=4;i=6313,1
+2024-09-05 14:07:29.085984,ableToMoveStatus,ns=4;i=6030,1
+2024-09-05 14:07:29.088789,position,ns=4;i=6300,1
+2024-09-05 14:07:29.521339,label,ns=3;i=7362,PhysicalNetworkInterface
+2024-09-05 14:07:29.945608,isActive,ns=3;i=6959,True
+2024-09-05 14:07:30.377228,isAvailable,ns=3;i=6960,True
+2024-09-05 14:07:31.032199,isExcludedFromRedundancyGroup,ns=3;i=6961,False
+2024-09-05 14:07:31.473595,isAvailable,ns=3;i=6972,True
+2024-09-05 14:07:31.894800,label,ns=3;i=6973,PhysicalNetworkInterfaceRedundancyGroup
+2024-09-05 14:07:32.556921,minimumAvailable,ns=3;i=6974,1
+2024-09-05 14:07:33.004313,statusTechnical ,ns=3;i=6977,1
+2024-09-05 14:07:33.454814,statusTechnicalManufacturerSpecificMessage,ns=3;i=7366,
+2024-09-05 14:07:33.997823,temperatureStatus,ns=3;i=7368,1
+2024-09-05 14:07:33.997823,aggregateAbleToMoveStatus ,ns=4;i=6023,2
+2024-09-05 14:07:33.997823,pointAbleToMoveStatus,ns=4;i=6026,2
+2024-09-05 14:07:33.997823,position,ns=4;i=6307,4
+2024-09-05 14:07:33.997823,StatusTechnical,ns=4;i=6313,4
+2024-09-05 14:07:33.997823,ableToMoveStatus,ns=4;i=6030,2
+2024-09-05 14:07:33.997823,position,ns=4;i=6300,4
+2024-09-05 14:07:34.456880,memorySize ,ns=3;i=6976,10000
+2024-09-05 14:07:34.890989,label ,ns=3;i=7365,Storage
+2024-09-05 14:07:35.443786,wearStatus,ns=3;i=6978,1
+2024-09-05 14:07:36.552670,isTimeSynchronised,ns=3;i=7285,True
+2024-09-05 14:07:36.555111,replacementIndication,ns=3;i=7109,1
+2024-09-05 14:07:37.515927,statusTechnical,ns=3;i=7112,1
+2024-09-05 14:07:37.516962,hardwareRevision,ns=3;i=7105,v1.0
+2024-09-05 14:07:37.953653,manufacturer,ns=3;i=7106,EU-Rail
+2024-09-05 14:07:38.508983,manufacturerModel,ns=3;i=7107,EULYNX BL4R3 Point OC
+2024-09-05 14:07:38.955796,manufacturingDateTime,ns=3;i=7108,2024-07-15 10:32:17
+2024-09-05 14:07:38.957761,ableToMoveStatus,ns=4;i=6030,1
+2024-09-05 14:07:39.399262,serialNumber,ns=3;i=7110,SN_OC_P_3_V1
+2024-09-05 14:07:39.938851,softwareRevision,ns=3;i=7111,v1.0
+2024-09-05 14:07:40.386195,label ,ns=3;i=7286,Equipment
+2024-09-05 14:07:41.034773,isTimeSynchronised,ns=3;i=7289,True
+2024-09-05 14:07:41.590920,replacementIndication,ns=3;i=7082,1
+2024-09-05 14:07:42.018282,statusTechnical,ns=3;i=7085,1
+2024-09-05 14:07:42.466276,hardwareRevision,ns=3;i=7078,v1.0
+2024-09-05 14:07:43.001585,manufacturer,ns=3;i=7079,EU-Rail
+2024-09-05 14:07:43.448094,manufacturerModel,ns=3;i=7080,EULYNX BL4R3 Point Safe Controller
+2024-09-05 14:07:43.900106,manufacturingDateTime,ns=3;i=7081,2024-07-15 10:32:17
+2024-09-05 14:07:43.900106,aggregateAbleToMoveStatus ,ns=4;i=6023,1
+2024-09-05 14:07:43.900106,pointAbleToMoveStatus,ns=4;i=6026,1
+2024-09-05 14:07:43.900106,position,ns=4;i=6307,1
+2024-09-05 14:07:43.900106,StatusTechnical,ns=4;i=6313,1
+2024-09-05 14:07:43.900106,position,ns=4;i=6300,1
+2024-09-05 14:07:44.448706,serialNumber,ns=3;i=7083,SN_SC_P_3_V1
+2024-09-05 14:07:44.890868,softwareRevision,ns=3;i=7084,v1.0
+2024-09-05 14:07:45.560486,label ,ns=3;i=7290,Equipment
+2024-09-05 14:07:46.020139,statusTechnical,ns=3;i=7140,1
+2024-09-05 14:07:46.465344,statusTechnicalManufacturerSpecificMessage,ns=3;i=7374,
+2024-09-05 14:07:46.893519,operationStatus,ns=3;i=7137,1
+2024-09-05 14:07:47.434368,coolingFanStatus,ns=3;i=7371,1
+2024-09-05 14:07:47.988140,TemperatureStatus,ns=3;i=7141,1
+2024-09-05 14:07:48.434879,cpuHealthStatus,ns=3;i=7134,1
+2024-09-05 14:07:48.986302,cpuLoadStatus,ns=3;i=7135,1
+2024-09-05 14:07:48.988318,lastCommandedPosition ,ns=4;i=6304,2
+2024-09-05 14:07:48.989794,position,ns=4;i=6307,3
+2024-09-05 14:07:48.990800,movementStatus,ns=4;i=6305,2
+2024-09-05 14:07:48.991844,position,ns=4;i=6300,3
+2024-09-05 14:07:49.434984,ramHealthStatus,ns=3;i=7138,1
+2024-09-05 14:07:49.986375,bootingLastReason,ns=3;i=7370,1
+2024-09-05 14:07:50.435125,systemDescription,ns=3;i=7376,Object Controller for Point Subsystem
+2024-09-05 14:07:50.987408,operatingSystem,ns=3;i=7373,Linux Debian Bookworm
+2024-09-05 14:07:51.437532,label ,ns=3;i=7372,Controller
+2024-09-05 14:07:51.990634,ramSize ,ns=3;i=7139,100
+2024-09-05 14:07:52.437051,bootingLastDateTime,ns=3;i=7369,2024-07-15 10:32:17
+2024-09-05 14:07:53.546745,isActive,ns=3;i=7131,True
+2024-09-05 14:07:53.546745,isAvailable,ns=3;i=7132,True
+2024-09-05 14:07:53.990854,isExcludedFromRedundancyGroup,ns=3;i=7133,False
+2024-09-05 14:07:54.532499,position,ns=4;i=6307,2
+2024-09-05 14:07:54.532499,movementStatus,ns=4;i=6305,3
+2024-09-05 14:07:54.532499,position,ns=4;i=6300,2
+2024-09-05 14:07:54.978768,statusTechnical,ns=3;i=7152,1
+2024-09-05 14:07:55.433854,statusTechnicalManufacturerSpecificMessage,ns=3;i=7382,
+2024-09-05 14:07:55.975602,operationStatus,ns=3;i=7149,1
+2024-09-05 14:07:56.396987,coolingFanStatus,ns=3;i=7379,1
+2024-09-05 14:07:57.083831,TemperatureStatus,ns=3;i=7153,1
+2024-09-05 14:07:57.086704,cpuHealthStatus,ns=3;i=7146,1
+2024-09-05 14:07:58.083358,cpuLoadStatus,ns=3;i=7147,1
+2024-09-05 14:07:58.085366,ramHealthStatus,ns=3;i=7150,1
+2024-09-05 14:07:58.520887,bootingLastReason,ns=3;i=7378,1
+2024-09-05 14:07:59.069468,systemDescription,ns=3;i=7384,Object Controller for Point Subsystem
+2024-09-05 14:07:59.519423,lastCommandedPosition ,ns=4;i=6304,1
+2024-09-05 14:07:59.521610,position,ns=4;i=6307,3
+2024-09-05 14:07:59.521610,movementStatus,ns=4;i=6305,1
+2024-09-05 14:07:59.521610,position,ns=4;i=6300,3
+2024-09-05 14:07:59.527141,operatingSystem,ns=3;i=7381,Linux Debian Bookworm
+2024-09-05 14:07:59.954478,label ,ns=3;i=7380,Controller
+2024-09-05 14:08:00.502763,ramSize ,ns=3;i=7151,100
+2024-09-05 14:08:00.939575,bootingLastDateTime,ns=3;i=7377,2024-07-15 10:32:17
+2024-09-05 14:08:01.487514,isActive,ns=3;i=7143,True
+2024-09-05 14:08:02.022596,isAvailable,ns=3;i=7144,True
+2024-09-05 14:08:02.452789,isExcludedFromRedundancyGroup,ns=3;i=7145,False
+2024-09-05 14:08:03.551446,statusTechnical,ns=3;i=7164,1
+2024-09-05 14:08:03.554945,statusTechnicalManufacturerSpecificMessage,ns=3;i=7390,
+2024-09-05 14:08:03.985217,operationStatus,ns=3;i=7161,1
+2024-09-05 14:08:04.412153,position,ns=4;i=6307,1
+2024-09-05 14:08:04.415154,movementStatus,ns=4;i=6305,3
+2024-09-05 14:08:04.417159,position,ns=4;i=6300,1
+2024-09-05 14:08:04.419471,coolingFanStatus,ns=3;i=7387,1
+2024-09-05 14:08:05.070999,TemperatureStatus,ns=3;i=7165,1
+2024-09-05 14:08:05.500028,cpuHealthStatus,ns=3;i=7158,1
+2024-09-05 14:08:05.937364,cpuLoadStatus,ns=3;i=7159,1
+2024-09-05 14:08:06.487903,ramHealthStatus,ns=3;i=7162,1
+2024-09-05 14:08:06.904873,bootingLastReason,ns=3;i=7386,1
+2024-09-05 14:08:07.548429,systemDescription,ns=3;i=7392,Object Controller for Point Subsystem
+2024-09-05 14:08:07.551446,operatingSystem,ns=3;i=7389,Linux Debian Bookworm
+2024-09-05 14:08:08.528380,label ,ns=3;i=7388,Controller
+2024-09-05 14:08:08.531659,ramSize ,ns=3;i=7163,100
+2024-09-05 14:08:08.953722,bootingLastDateTime,ns=3;i=7385,2024-07-15 10:32:17
+2024-09-05 14:08:10.038102,isActive,ns=3;i=7155,True
+2024-09-05 14:08:10.040103,isAvailable,ns=3;i=7156,True
+2024-09-05 14:08:10.472630,isExcludedFromRedundancyGroup,ns=3;i=7157,False
+2024-09-05 14:08:11.568722,isAvailable,ns=3;i=7167,True
+2024-09-05 14:08:11.570051,label,ns=3;i=7168,ControllerRedundancyGroup
+2024-09-05 14:08:12.014670,minimumAvailable,ns=3;i=7169,2
+2024-09-05 14:08:12.966255,statusTechnical,ns=3;i=7178,1
+2024-09-05 14:08:13.400135,statusTechnicalManufacturerSpecificMessage,ns=3;i=7394,
+2024-09-05 14:08:14.033255,operationStatus,ns=3;i=7177,3
+2024-09-05 14:08:14.036919,macAddress,ns=3;i=7175,00:1A:2B:3C:4D:5E
+2024-09-05 14:08:14.468548,nominalBandwidth,ns=3;i=7176,1000000000
+2024-09-05 14:08:14.917941,label,ns=3;i=7393,PhysicalNetworkInterface
+2024-09-05 14:08:15.568263,isActive,ns=3;i=7171,True
+2024-09-05 14:08:16.001174,isAvailable,ns=3;i=7172,True
+2024-09-05 14:08:16.438957,isExcludedFromRedundancyGroup,ns=3;i=7173,False
+2024-09-05 14:08:17.081307,statusTechnical,ns=3;i=7187,1
+2024-09-05 14:08:17.502590,statusTechnicalManufacturerSpecificMessage,ns=3;i=7397,
+2024-09-05 14:08:17.937151,operationStatus,ns=3;i=7186,3
+2024-09-05 14:08:18.552720,macAddress,ns=3;i=7184,00:1A:2B:3C:4D:5E
+2024-09-05 14:08:18.990753,nominalBandwidth,ns=3;i=7185,1000000000
+2024-09-05 14:08:19.401693,label,ns=3;i=7396,PhysicalNetworkInterface
+2024-09-05 14:08:20.030824,isActive,ns=3;i=7180,True
+2024-09-05 14:08:20.446705,isAvailable,ns=3;i=7181,True
+2024-09-05 14:08:20.890767,isExcludedFromRedundancyGroup,ns=3;i=7182,False
+2024-09-05 14:08:21.538209,isAvailable,ns=3;i=7189,True
+2024-09-05 14:08:21.980189,label,ns=3;i=7190,PhysicalNetworkInterfaceRedundancyGroup
+2024-09-05 14:08:22.435253,minimumAvailable,ns=3;i=7191,1
+2024-09-05 14:08:22.967058,statusTechnical ,ns=3;i=7194,1
+2024-09-05 14:08:23.385270,statusTechnicalManufacturerSpecificMessage,ns=3;i=7400,
+2024-09-05 14:08:24.004572,temperatureStatus,ns=3;i=7402,1
+2024-09-05 14:08:24.421544,lastCommandedPosition ,ns=4;i=6304,0
+2024-09-05 14:08:24.424782,pointAbleToMoveStatus,ns=4;i=6026,0
+2024-09-05 14:08:24.426781,position,ns=4;i=6307,0
+2024-09-05 14:08:24.431048,movementStatus,ns=4;i=6305,0
+2024-09-05 14:08:24.433050,StatusTechnical,ns=4;i=6313,0
+2024-09-05 14:08:24.434051,ableToMoveStatus,ns=4;i=6030,0
+2024-09-05 14:08:24.435062,position,ns=4;i=6300,0
+2024-09-05 14:08:24.436255,memorySize ,ns=3;i=7193,10000
+2024-09-05 14:08:25.085686,label ,ns=3;i=7399,Storage
+2024-09-05 14:08:25.087610,wearStatus,ns=3;i=7195,1
+2024-09-05 14:08:39.435911,statusTechnical,ns=3;i=6891,0
+2024-09-05 14:08:39.438026,statusTechnical,ns=3;i=6859,0
+2024-09-05 14:08:39.441907,statusTechnical,ns=3;i=6923,0
+2024-09-05 14:08:39.445882,operationStatus,ns=3;i=6920,2
+2024-09-05 14:08:39.449405,coolingFanStatus,ns=3;i=7337,2
+2024-09-05 14:08:39.452501,TemperatureStatus,ns=3;i=6924,0
+2024-09-05 14:08:39.454536,bootingLastReason,ns=3;i=7336,0
+2024-09-05 14:08:44.440068,statusTechnical,ns=3;i=6891,1
+2024-09-05 14:08:44.444524,statusTechnical,ns=3;i=6859,1
+2024-09-05 14:08:44.446672,statusTechnical,ns=3;i=6923,1
+2024-09-05 14:08:44.448030,TemperatureStatus,ns=3;i=6924,2
+2024-09-05 14:08:49.419895,ramHealthStatus,ns=3;i=6921,2
+2024-09-05 14:08:54.508638,cpuHealthStatus,ns=3;i=6917,2
+2024-09-05 14:08:54.510635,cpuLoadStatus,ns=3;i=6918,2
+2024-09-05 14:08:59.456384,statusTechnical,ns=3;i=6891,2
+2024-09-05 14:08:59.457803,statusTechnical,ns=3;i=6859,2
+2024-09-05 14:08:59.457803,statusTechnical,ns=3;i=6923,2
+2024-09-05 14:08:59.457803,cpuLoadStatus,ns=3;i=6918,0
+2024-09-05 14:09:04.433763,statusTechnical,ns=3;i=6891,3
+2024-09-05 14:09:04.433763,statusTechnical,ns=3;i=6859,3
+2024-09-05 14:09:04.433763,statusTechnical,ns=3;i=6923,3
+2024-09-05 14:09:04.433763,ramHealthStatus,ns=3;i=6921,3
+2024-09-05 14:09:09.386872,operationStatus,ns=3;i=6920,3
+2024-09-05 14:09:09.394620,cpuHealthStatus,ns=3;i=6917,3
+2024-09-05 14:09:09.400468,cpuLoadStatus,ns=3;i=6918,3
+2024-09-05 14:09:14.454949,replacementIndication,ns=3;i=6893,2
+2024-09-05 14:09:14.454949,statusTechnical,ns=3;i=6891,4
+2024-09-05 14:09:14.454949,replacementIndication,ns=3;i=6781,2
+2024-09-05 14:09:14.454949,statusTechnical,ns=3;i=6859,4
+2024-09-05 14:09:14.454949,statusTechnical,ns=3;i=6923,4
+2024-09-05 14:09:14.454949,cpuLoadStatus,ns=3;i=6918,0
+2024-09-05 14:09:14.454949,bootingLastReason,ns=3;i=7336,5
+2024-09-05 14:09:19.530551,isTimeSynchronised,ns=3;i=7295,False
+2024-09-05 14:09:19.533060,isTimeSynchronised,ns=3;i=7299,False
+2024-09-05 14:09:19.533060,bootingLastReason,ns=3;i=7336,4
+2024-09-05 14:09:24.450237,replacementIndication,ns=3;i=6893,0
+2024-09-05 14:09:24.450237,replacementIndication,ns=3;i=6781,0
+2024-09-05 14:09:24.450237,operationStatus,ns=3;i=6920,0
+2024-09-05 14:09:24.450237,coolingFanStatus,ns=3;i=7337,0
+2024-09-05 14:09:24.450237,TemperatureStatus,ns=3;i=6924,0
+2024-09-05 14:09:24.450237,cpuHealthStatus,ns=3;i=6917,0
+2024-09-05 14:09:24.450237,ramHealthStatus,ns=3;i=6921,0
+2024-09-05 14:09:24.450237,bootingLastReason,ns=3;i=7336,0
