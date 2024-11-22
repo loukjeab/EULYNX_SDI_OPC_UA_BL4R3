@@ -190,11 +190,6 @@ Follow these steps to install and deploy the OPC UA diagnostics system:
 
 ---
 
-## Appendix and References
-For detailed configurations of YAML files and implementation steps, refer to the appendix of the accompanying documentation.
-
----
-
 ## Future Outlook
 - **External Access:** Currently, the server is accessible only within the local machine. Future work includes enabling external access via a LoadBalancer or cloud deployment.
 - **Backup & Disaster Recovery:** Planning to implement and test backup strategies to enhance system resilience.
