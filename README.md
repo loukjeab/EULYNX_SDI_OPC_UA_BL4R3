@@ -33,8 +33,8 @@ This repository contains the implementation for a diagnostics system based on OP
 - **Supervisors:**
   - Academic Supervisor: Prof. Dr.-Ing. Armando Walter Colombo
   - First Industry Supervisor: Ralph R. Müller
-  - Second Industry Supervisor: Ibtihel Cherif
-  - Third Industry Supervisor: Prof. Dr. Karl-Albrecht Klinge  
+  - Second Industry Supervisor: Ibtihel Cherif, M.Eng.
+  - Third Industry Supervisor: Prof. Dr.-Ing. Karl-Albrecht Klinge 
 - **Submission Date:** 29.11.2024  
 ---
 
