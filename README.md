@@ -5,7 +5,6 @@ This repository contains the implementation for a diagnostics system based on OP
 ---
 
 ## Table of Contents
-## Table of Contents
 1. [Student Information](#student-information)
 2. [Repository Structure](#repository-structure)
     - [`.github`](#1-github)
@@ -187,11 +186,6 @@ Follow these steps to install and deploy the OPC UA diagnostics system:
 
 ### Docker
 - Builds a lightweight, containerized OPC UA server for seamless deployment.
-
----
-
-## Appendix and References
-For detailed configurations of YAML files and implementation steps, refer to the appendix of the accompanying documentation.
 
 ---
 
