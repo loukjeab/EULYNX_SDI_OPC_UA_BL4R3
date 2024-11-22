@@ -7,6 +7,11 @@ spec:
   selector:
     matchLabels:
       app: opcua-servers
+  strategy: #update to support rolling update
+    type: {{ .Values.updateStrategy.type }}
+    rollingUpdate:
+      maxUnavailable: {{ .Values.updateStrategy.rollingUpdate.maxUnavailable }}
+      maxSurge: {{ .Values.updateStrategy.rollingUpdate.maxSurge }}  
   template:
     metadata:
       labels:

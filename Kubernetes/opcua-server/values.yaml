@@ -1,4 +1,11 @@
-replicaCount: 1
+replicaCount: 2
+
+#to suport rolling update
+updateStrategy:
+  type: RollingUpdate
+  rollingUpdate:
+    maxUnavailable: 1  # Allow a maximum of 1 pod to be unavailable during updates
+    maxSurge: 1        # Allow 1 additional pod above the desired number during updates
 
 image:
   repository: ghcr.io/loukjeab/eulynx_sdi_opc_ua_bl4r3/server
@@ -32,18 +39,18 @@ service:
       port: 4845
       targetPort: 4845
       nodePort: 30045
-    - name: pointgroup-koln
-      port: 4846
-      targetPort: 4846
-      nodePort: 30046
-    - name: pointgroup-strabourg
-      port: 4847
-      targetPort: 4847
-      nodePort: 30047
-    - name: pointgroup-paris
-      port: 4848
-      targetPort: 4848
-      nodePort: 30048
+    # - name: pointgroup-koln
+    #   port: 4846
+    #   targetPort: 4846
+    #   nodePort: 30046
+    # - name: pointgroup-strabourg
+    #   port: 4847
+    #   targetPort: 4847
+    #   nodePort: 30047
+    # - name: pointgroup-paris
+    #   port: 4848
+    #   targetPort: 4848
+    #   nodePort: 30048
       
 
 servers:
@@ -65,15 +72,15 @@ servers:
   - name: pointgroup-emd
     port: 4845
     endpoint: opc.tcp://0.0.0.0:4845/EULYNX
-  - name: pointgroup-koln
-    port: 4846
-    endpoint: opc.tcp://0.0.0.0:4846/EULYNX
-  - name: pointgroup-strabourg
-    port: 4847
-    endpoint: opc.tcp://0.0.0.0:4847/EULYNX
-  - name: pointgroup-paris
-    port: 4848
-    endpoint: opc.tcp://0.0.0.0:4848/EULYNX
+  # - name: pointgroup-koln
+  #   port: 4846
+  #   endpoint: opc.tcp://0.0.0.0:4846/EULYNX
+  # - name: pointgroup-strabourg
+  #   port: 4847
+  #   endpoint: opc.tcp://0.0.0.0:4847/EULYNX
+  # - name: pointgroup-paris
+  #   port: 4848
+  #   endpoint: opc.tcp://0.0.0.0:4848/EULYNX
 
 
 serviceAccount:
