@@ -93,7 +93,7 @@ This repository contains the implementation for a diagnostics system based on OP
 - **Purpose:** Stores supporting documentation and supplementary materials.
 - **Key Files:**
   - `MII_Master_Thesis_HSEL_DB_InfraGO_RevDraft.pdf`: Draft version of the master's thesis report.
-  - `Supplymentary_EURAIL EULYNX Interface Specification SDI - List of Data Points.xlsx`: Supplementary documentation with data points for EULYNX SDI.
+  - `Supplementary_EURAIL EULYNX Interface Specification SDI - List of Data Points.xlsx`: Supplementary documentation with data points for EULYNX SDI.
 
 
 ## System Prerequisites
